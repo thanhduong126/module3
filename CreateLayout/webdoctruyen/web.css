@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 100%;
+    margin: 0;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    border: 5px black;
+    background-image: url("anhmautrang.jpg");
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    padding-top: 80px;
+    border: 5px black;
+    text-align: center;
+    position: sticky;
+}
+
+#left{
+    width: 20%;
+    height: auto;
+    background-color:whitesmoke;
+}
+#content{
+    width: 80%;
+    height: auto;
+    background-color: rgb(222, 226, 228);
+}
+
+#footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(226, 224, 226);
+    clear: both;
+    text-align: center;
+
+}
+
+#bigcontent{
+    display: flex;
+}
+
+.leftclass div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+
+  }
+  
+  .leftclass div li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .leftclass div li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  .leftclass div li:last-child {
+    border-bottom: none;
+  }
+  
+  .leftclass div li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .leftclass div li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+
+  .menu ul a:link, a:visited {
+    background-color: #91767488;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .menu ul a:hover, a:active {
+    background-color: rgb(233, 221, 221);
+  }
+  
+#content div img{
+width: 250px;
+height: 300px;
+}
+
+.displayimg {
+    width: 25%;
+    float: left;
+}
+
+.menu ul{
+    background-image: url("anhmautrang.jpg");
+}
+
+.leftclass div a{
+    background-color: #91767488;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.leftclass ul a:hover, a:active {
+    background-color: rgb(233, 221, 221);
+  }
+
+.menu ul a{
+    border-radius: 10%;
+  }
+
+  #left div h2 a{
+    border-radius: 50%;
+  }
+
+  #left div ul li a{
+    border-radius: 10%;
+  }

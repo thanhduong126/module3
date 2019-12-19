@@ -1,0 +1,67 @@
+#wrapper{
+    width: 100%;
+    margin: 1px;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    position: fixed;
+    border: 5px black;
+
+}
+#menu{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    padding-top: 80px;
+    border: 5px black;
+
+}
+#left{
+    width: 20%;
+    height: auto;
+    background-color: tomato;
+    float: left;
+
+}
+#content{
+    width: 60%;
+    height: auto;
+    background-color: skyblue;
+    float: left;
+
+}
+#right{
+    width: 20%;
+    height: auto;
+    background-color: springgreen;
+    float: left;
+
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: violet;
+    clear: both;
+    text-align: center;
+
+}
+/* inside menu */
+#leftmenu{
+    float: left;
+    position: absolute;
+    left: 0;
+}
+#rightmenu{
+    float: left;
+    position: absolute;
+    right: 0;
+}
+/* img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    background: url("Joker.jpg");
+} */

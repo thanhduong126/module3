@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+/*sử dụng #  là id = header trong thẻ div */
+#header{
+height: 100px;
+width: 100%;
+position: fixed;
+}
+
+#main{
+    background: rgb(218, 134, 134);
+    height: auto;
+    width: 80%;
+    float: left;
+    
+}
+
+#sidebar{
+    background: rgb(152, 152, 248);
+    height: auto;
+    width: 20%;
+    float: left;
+}
+
+#footer{
+    background: rgb(44, 160, 44);
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
+
+#footer{
+    background-color:white;
+    color: hotpink;
+    text-align: center;
+}
+#menu{
+ color: khaki;
+}
