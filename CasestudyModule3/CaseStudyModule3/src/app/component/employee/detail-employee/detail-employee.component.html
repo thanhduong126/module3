@@ -1,0 +1,21 @@
+<style>
+    h3{
+        color: blue;
+    }
+    </style>
+  
+    <form>
+        <h1>Employee Detail</h1>
+    <h3>ID: {{employee.id}}</h3>
+    <h3>Tên nhân viên: {{employee.tenNhanVien}}</h3>
+    <h3>Vị trí: {{employee.viTri}}</h3>
+    <h3>Trình độ: {{employee.trinhDo}}</h3>
+    <h3>Bộ phận: {{employee.boPhan}}</h3>
+    <h3>Ngày sinh: {{employee.ngaySinh}}</h3>
+    <h3>Số chứng minh nhân dân: {{employee.soCmnd}}</h3>
+    <h3>Email: {{employee.email}}</h3>
+    <h3>Địa chỉ: {{employee.diaChi}}</h3>
+    <input type="button" (click)="updateEmployee(employee.id)" value="Edit">
+    <input type="button" (click)="deleteEmployee(employee.id)" value="Delete">
+    </form>
+ 

@@ -1,0 +1,141 @@
+<!-- <nav>
+  <a routerLink="/list"><h2>List Customer</h2></a>
+  <a routerLink="/listEmployee"><h2>List Employee</h2></a>
+  <a routerLink="/Createcustomer"><h2>Create Customer</h2></a>
+  <a routerLink="/CreateEmployee"><h2>Create Employee</h2></a>
+</nav> -->
+
+<div class="container br">
+
+  <header class="row">
+    <div class="shopping-mall">
+      <h1>Furama Resort</h1>
+      <h5>Địa điểm du lịch số 1 Việt Nam</h5>
+    </div>
+  </header>
+
+
+
+<div class="row">
+  <nav class="navbar navbar-dark bg-primary" style=" padding: 1px; margin: 1px; width: 100%;">
+
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-earphone"></span>
+              Trang chủ
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-earphone"></span>
+              Đặt dịch vụ
+            </a>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false"><span class="glyphicon glyphicon-user"></span>Nhân Viên
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li role="separator" class="divider"></li>
+              <li>
+                <a routerLink="/listEmployee">Danh sách nhân viên</a>
+              </li>
+              <li>
+                <a routerLink="/CreateEmployee">Thêm nhân viên</a>
+              </li>
+             
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Dịch vụ
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Villa</a>
+              </li>
+              <li>
+                <a href="#">House</a>
+              </li>
+              <li>
+                <a href="#">Room</a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Khách Hàng
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a routerLink="/list">Danh sách khách hàng</a>
+              </li>
+              <li>
+                <a routerLink="Createcustomer">Tạo khách hàng</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Quản lý hợp đồng
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Tất cả hợp đồng</a>
+              </li>
+              <li>
+                <a href="#">Hợp đồng của Villa</a>
+              </li>
+              <li>
+                <a href="#">Hợp đồng của House</a>
+              </li>
+              <li>
+                <a href="#">Hợp đồng của Room</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <button type="button" class="btn btn-default buttonid">Đăng nhập</button>
+          <button type="button" class="btn btn-default buttonid">Đăng ký</button>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+  </nav>
+</div>
+<div class="row" style="height: 100%;">
+<router-outlet></router-outlet>
+</div>
+</div>
+<div class="row" style="height: auto;">
+<footer class="panel panel-default">
+  <div class="panel-heading text-center">
+    <p>
+      <span class="glyphicon">&#xe127;</span>
+      Dịch vụ du lịch số 1 Viêt Nam
+    </p>
+    <p>
+      <span class="glyphicon glyphicon-phone-alt"></span>
+      Liên hệ: 090909090
+    </p>
+    <p>
+      <span class="glyphicon">&#xe127;</span>
+      Địa chỉ 295 Nguyễn Tất Thành,Hải Châu,Đà Nẵng
+    </p>
+  </div>
+</footer>
+</div>
+

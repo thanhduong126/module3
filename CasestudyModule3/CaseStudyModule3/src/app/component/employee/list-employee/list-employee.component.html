@@ -1,0 +1,43 @@
+<nav class="navbar">
+    <nav class="navbar">
+      <nav class="navbar" style="color: blue;"><h3>Search:</h3>
+      <input class="form-control" type="text" name="search" [(ngModel)]="filter" placeholder="Tìm kiếm nhân viên">      
+    </nav>
+  </nav>   
+  <h1 style="text-align: center;">Danh sách nhân viên</h1>
+  <table class="table" style="text-align: center; ">
+      <thead>
+        <tr >          
+          <th scope="col">ID </th>
+          <th scope="col">Tên nhân viên </th>
+          <th scope="col">Vị trí </th>
+          <th scope="col">Trình độ </th>
+          <th scope="col">Bộ phận </th>
+          <th scope="col">Ngày sinh </th>
+          <th scope="col">Số chứng minh nhân dân </th>
+       
+          <!-- <th scope="col">Email </th>
+          <th scope="col">Địa chỉ </th>
+          <th scope="col">Tùy chọn </th> -->
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let temp of employee | filter:filter | paginate: { itemsPerPage: 5, currentPage: p }; let i = index">
+          <td>{{temp.id}}</td>
+          <td>{{temp.tenNhanVien}}</td>
+          <td>{{temp.viTri}}</td>
+          <td>{{temp.trinhDo}}</td>
+          <td>{{temp.boPhan}}</td>
+          <td>{{temp.ngaySinh}}</td>
+          <!-- <td>{{temp.soCmnd}}</td>
+          <td>{{temp.email}}</td>
+          <td>{{temp.diaChi}}</td> -->
+          <td> <input type="button" (click)="detailEmployee(temp.id)" value="Xem Chi tiết"> </td>
+    
+        </tr>
+      
+      </tbody>
+    </table>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  

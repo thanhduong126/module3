@@ -1,0 +1,37 @@
+<nav class="navbar">
+  <nav class="navbar"><h3 style="color: blue;">Search:</h3>
+    <input class="form-control" type="text" name="search" [(ngModel)]="filter" placeholder="Tìm kiếm khách hàng">      
+  </nav>
+</nav>
+<h1 style="text-align: center;">Danh sách khách hàng</h1>
+<table class="table" style="text-align: center; ">
+    <thead>
+      <tr >
+        <th scope="col">ID </th>
+        <th scope="col">Tên khách hàng </th>
+        <th scope="col">Loại khách hàng </th>
+        <th scope="col">Ngày sinh </th>
+        <th scope="col">Số chứng minh nhân dân </th>
+        <!-- <th scope="col">Số điện thoại </th>
+        <th scope="col">Email </th>
+        <th scope="col">Địa chỉ </th> -->
+        <th scope="col">Tùy chỉnh </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let temp of customer | filter:filter | paginate: { itemsPerPage: 5, currentPage: p }; let i = index">
+        <td>{{temp.id}}</td>
+        <td>{{temp.tenKhachHang}}</td>
+        <td>{{temp.loaiKhachHang}}</td>
+        <td>{{temp.ngaySinh}}</td>
+        <!-- <td>{{temp.soCmnd}}</td>
+        <td>{{temp.soDT}}</td>
+        <td>{{temp.email}}</td> -->
+        <td>{{temp.diaChi}}</td>
+        <td> <input type="button" (click)="detailCustomer(temp.id)" value="Xem chi tiết"> </td>
+      
+      </tr>
+     
+    </tbody>
+  </table>
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>

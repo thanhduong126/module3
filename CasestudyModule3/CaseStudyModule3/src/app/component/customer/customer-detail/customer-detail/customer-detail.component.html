@@ -1,0 +1,21 @@
+<style>
+    
+h3{
+    color: blue;
+}
+</style>
+<form>
+    <h1>
+        Customer Detail
+    </h1>
+<h3>ID: {{customer.id}}</h3>
+<h3>Tên khách hàng: {{customer.tenKhachHang}}</h3>
+<h3>Loại khách hàng: {{customer.loaiKhachHang}}</h3>
+<h3>Ngày sinh: {{customer.ngaySinh}}</h3>
+<h3>Số chứng minh nhân dân: {{customer.soCmnd}}</h3>
+<h3>Số điện thoại: {{customer.soDT}}</h3>
+<h3>Email: {{customer.email}}</h3>
+<h3>Địa chỉ: {{customer.diaChi}}</h3>
+<input type="button" (click)="updateCustomer(customer.id)" value="Edit">
+<input type="button" (click)="deleteCustomer(customer.id)" value="Delete">
+</form>

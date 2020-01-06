@@ -1,0 +1,28 @@
+
+<form id="formNewCustomer" name="formCustomer" #customerData="ngForm" (submit)="updateCustomer();">
+    <h1>Update</h1>
+    <label>ID:</label>
+    <input type="text" name ="id" id="id" [(ngModel)]="customer.id" ngModel disabled><br>
+    
+    <label>Tên:</label>
+    <input type="text" name ="tenKhachHang" id="tenKhachHang" [(ngModel)]="customer.tenKhachHang" ngModel><br>
+    
+    <label>Loại khách hàng:</label>
+    <input type="text" name ="loaiKhachHang" id="loaiKhachHang" [(ngModel)]="customer.loaiKhachHang" ngModel><br>
+    
+    <label>Ngày sinh:</label>
+    <input type="text" name ="ngaySinh" id="ngaySinh" [(ngModel)]="customer.ngaySinh" ngModel><br>
+    
+    <label>Số chứng minh thư:</label>
+    <input type="text" name ="soCmnd" id="soCmnd" [(ngModel)]="customer.soCmnd" ngModel><br>
+    
+    <label>Số điện thoại:</label>
+    <input type="text" name ="soDT" id="soDT" [(ngModel)]="customer.soDT" ngModel><br>
+    
+    <label>Email:</label>
+    <input type="text" name ="email" id="email" [(ngModel)]="customer.email" ngModel><br>
+    
+    <label>Địa chỉ:</label>
+    <input type="text" name ="diaChi" id="diaChi" [(ngModel)]="customer.diaChi" ngModel><br>
+    <input type="submit" value="Update customer">
+    </form>

@@ -1,0 +1,49 @@
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { ListCustomerComponent } from './component/customer/list-customer/list-customer.component';
+import { CreateCustomerComponent } from './component/customer/create-customer/create-customer.component';
+import { CustomerDetailComponent } from './component/customer/customer-detail/customer-detail/customer-detail.component';
+import { UpdateCustomerComponent } from './component/customer/update-customer/update-customer.component';
+import { ListEmployeeComponent } from './component/employee/list-employee/list-employee.component';
+import { CreateEmployeeComponent } from './component/employee/create-employee/create-employee.component';
+import { UpdateEmployeeComponent } from './component/employee/update-employee/update-employee.component';
+import { DetailEmployeeComponent } from './component/employee/detail-employee/detail-employee.component';
+
+
+const routes: Routes = [
+
+  //Customer
+  {
+    path: "list", component: ListCustomerComponent
+  },
+  {
+    path: "Createcustomer", component: CreateCustomerComponent
+  },
+  {
+    path: "detailCustomer/:id", component: CustomerDetailComponent
+  },
+  {
+    path: "updateCustomer/:id", component: UpdateCustomerComponent
+  },
+
+  //Employee
+  {
+    path: "listEmployee", component: ListEmployeeComponent
+  },
+  {
+    path: "CreateEmployee", component: CreateEmployeeComponent
+  },
+  {
+    path: "detailEmployee/:id", component: DetailEmployeeComponent
+  },
+  {
+    path: "updateEmployee/:id", component: UpdateEmployeeComponent
+  },
+
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }

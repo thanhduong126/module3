@@ -1,0 +1,184 @@
+{
+  "customer": [
+    {
+      "id": 3,
+      "tenKhachHang": "Nguyễn Văn BBB",
+      "loaiKhachHang": "Nomal",
+      "ngaySinh": "09/02/1995",
+      "soCmnd": "12121212111",
+      "soDT": "12312312311",
+      "email": "sadnight921995@yahoo.com",
+      "diaChi": "Quảng Nam"
+    },
+    {
+      "id": 8,
+      "tenKhachHang": "Nguyễn Văn A",
+      "loaiKhachHang": "Nomal",
+      "ngaySinh": "213",
+      "soCmnd": "2131231212",
+      "soDT": "3243242",
+      "email": "sadnight921995@yahoo.com",
+      "diaChi": "Hà Nội"
+    },
+    {
+      "id": 9,
+      "tenKhachHang": "Nguyễn Văn A",
+      "loaiKhachHang": "Vip",
+      "ngaySinh": "213",
+      "soCmnd": "12121212111",
+      "soDT": "32423",
+      "email": "sadnight921995@yahoo.com",
+      "diaChi": "Huế"
+    },
+    {
+      "id": 10,
+      "tenKhachHang": "Nguyễn Văn A",
+      "loaiKhachHang": "Vip",
+      "ngaySinh": "5464511",
+      "soCmnd": "12121212111",
+      "soDT": "5646",
+      "email": "sadnight921995@yahoo.com",
+      "diaChi": "Quảng Bình"
+    },
+    {
+      "id": 11,
+      "tenKhachHang": "Nguyễn Văn A",
+      "loaiKhachHang": "Vip",
+      "ngaySinh": "213",
+      "soCmnd": "1231231231",
+      "soDT": "32423",
+      "email": "sadnight921995@yahoo.com",
+      "diaChi": "Đà Nẵng"
+    },
+    {
+      "id": 12,
+      "tenKhachHang": "Hoang Thanh Dương",
+      "loaiKhachHang": "Vip",
+      "ngaySinh": "09/02/1995",
+      "soCmnd": "42132131",
+      "soDT": "3243242",
+      "email": "sadnight921995@yahoo.com",
+      "diaChi": "Đà Nẵng"
+    },
+    {
+      "id": 13,
+      "tenKhachHang": "Nguyễn Văn A",
+      "loaiKhachHang": "Nomal",
+      "ngaySinh": "09/02/1995",
+      "soCmnd": "42132131",
+      "soDT": "3243242",
+      "email": "sadnight921995@yahoo.com",
+      "diaChi": "Đà Nẵng"
+    },
+    {
+      "id": 14,
+      "tenKhachHang": "sada",
+      "loaiKhachHang": "Nomal",
+      "ngaySinh": "2020-01-15",
+      "soCmnd": "123123123",
+      "soDT": "0902626256",
+      "email": "hoangthanhduong09021995@gmail.com",
+      "diaChi": "Hà Nội"
+    }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "tenNhanVien": "Nguyễn Văn BB",
+      "viTri": "Phó phòng",
+      "trinhDo": "Đại học",
+      "boPhan": "makerting",
+      "ngaySinh": "11/15/1992",
+      "soCmnd": "012345698",
+      "email": "nguyenvanb@gmail.com",
+      "diaChi": "Huế"
+    },
+    {
+      "id": 2,
+      "tenNhanVien": "Nguyễn Văn C",
+      "viTri": "Nhân viên",
+      "trinhDo": "Cao đẳng",
+      "boPhan": "Chăm sóc khách hàng",
+      "ngaySinh": "01/05/1993",
+      "soCmnd": "012345691",
+      "email": "nguyenvanc@gmail.com",
+      "diaChi": "Đà Nẵng"
+    },
+    {
+      "id": 3,
+      "tenNhanVien": "Nguyễn Văn A",
+      "viTri": "Trưởng phòng",
+      "trinhDo": "Diamond",
+      "boPhan": "Sale",
+      "ngaySinh": "01/05/1993",
+      "soCmnd": "012345698",
+      "email": "nguyenvana@gmail.com",
+      "diaChi": "Quảng Nam"
+    },
+    {
+      "id": 4,
+      "tenNhanVien": "dsfsd",
+      "viTri": "Phó phòng",
+      "trinhDo": "",
+      "boPhan": "makerting",
+      "ngaySinh": "2020-01-15",
+      "soCmnd": "Hue",
+      "email": "duong@gmail.com",
+      "diaChi": ""
+    },
+    {
+      "id": 5,
+      "tenNhanVien": "sadas",
+      "viTri": "",
+      "trinhDo": "",
+      "boPhan": "",
+      "ngaySinh": "",
+      "soCmnd": "",
+      "email": "",
+      "diaChi": ""
+    },
+    {
+      "id": 6,
+      "tenNhanVien": "ádas",
+      "viTri": "",
+      "trinhDo": "",
+      "boPhan": "",
+      "ngaySinh": "",
+      "soCmnd": "",
+      "email": "",
+      "diaChi": ""
+    }
+  ],
+  "HopDong": [
+    {
+      "id": 1,
+      "idNhanVien": 3,
+      "idKhachHang": 1,
+      "idDichVu": 3,
+      "ngayLamHopDong": "03/02/2019",
+      "ngayKetThucHopDong": "02/03/2019",
+      "tienDatCoc": 150000,
+      "tongTien": 1500000
+    },
+    {
+      "id": 2,
+      "idNhanVien": 1,
+      "idKhachHang": 3,
+      "idDichVu": 1,
+      "ngayLamHopDong": "02/03/2019",
+      "ngayKetThucHopDong": "03/04/2019",
+      "tienDatCoc": 120000,
+      "tongTien": 1200000
+    },
+    {
+      "id": 3,
+      "idNhanVien": 1,
+      "idKhachHang": 2,
+      "idDichVu": 2,
+      "ngayLamHopDong": "01/03/2019",
+      "ngayKetThucHopDong": "07/04/2019",
+      "tienDatCoc": 130000,
+      "tongTien": 1300000
+    }
+  ]
+}

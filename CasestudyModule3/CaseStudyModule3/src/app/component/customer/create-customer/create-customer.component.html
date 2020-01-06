@@ -1,0 +1,74 @@
+<div class="container">
+    <div class="form-group col-md-3 col-md-offset-3 align-center ">
+        <form id="formNewCustomer" name="formCustomer"
+            (submit)="addNewCustomer(Contact.value);" [formGroup]="Contact">
+            <!-- <label>ID:</label>
+    <input type="text" name ="id" id="id" placeholder="id" ngModel><br>
+     -->
+            <label>Tên:</label >
+            <input type="text" name="tenKhachHang" id="tenKhachHang" placeholder="tên khách hàng"
+                formControlName="tenKhachHang" ><br>
+
+            <label>Loại khách hàng:</label>
+            <input type="text" name="loaiKhachHang" id="loaiKhachHang" placeholder="loại khách hàng"
+                formControlName="loaiKhachHang" ><br>
+
+            <label>Ngày sinh:</label>
+            <input type="date" name="ngaySinh" id="ngaySinh" placeholder="ngày sinh" formControlName="ngaySinh"
+                ><br>
+                <p role="alert" *ngIf="Contact.controls.ngaySinh?.errors?.required && Contact.controls.ngaySinh?.touched" > Không được để trống</p>
+                <p role="alert" *ngIf="Contact.controls.ngaySinh?.errors?.pattern && Contact.controls.ngaySinh?.touched" > Định dạng ngày sinh phải là dd/mm/yyyy</p>
+                <!-- <p *ngIf="Contact.get('ngaySinh').valid && Contact.controls.ngaySinh?.touched"> d</p> -->
+
+            <label>Số chứng minh thư:</label>
+            <input type="text" name="soCmnd" id="soCmnd" placeholder="số chứng minh thư" formControlName="soCmnd">
+            <br>
+            <p *ngIf="Contact.controls.soCmnd?.errors?.required && Contact.controls.soCmnd?.touched"> Không được để trống.</p>
+            <p *ngIf="Contact.controls.soCmnd?.errors?.pattern && Contact.controls.soCmnd?.touched"> Số chứng minh gồm 9 chữ số nằm trong khoảng từ 0-9.</p>
+
+            <label>Số điện thoại:</label>
+            <input type="text" name="soDT" id="soDT" placeholder="số điện thoại" formControlName="soDT" ><br>
+            <p *ngIf="Contact.controls.soDT?.errors?.required && Contact.controls.soDT?.touched"> Không được để trống.</p>
+            <p *ngIf="Contact.controls.soDT?.errors?.pattern && Contact.controls.soDT?.touched"> Số điện thoại bắt đầu bằng đầu số 090 và có 10 số.</p>
+
+            <label>Email:</label>
+            <input type="text" name="email" id="email" placeholder="email" formControlName="email" ><br>
+            <p *ngIf="Contact.controls.email?.errors?.pattern && Contact.controls.email?.touched"> Định dạng email. VD:duong@gmail.com</p>
+            <p *ngIf="Contact.controls.email?.errors?.required && Contact.controls.email?.touched"> Không được để trống.</p>
+
+            <label>Địa chỉ:</label>
+            <input type="text" name="diaChi" id="diaChi" placeholder="địa chỉ" formControlName="diaChi" ><br>
+            <input type="submit" value="Add customer" [disabled]="!Contact.valid">
+        </form>
+    </div>
+</div>
+
+
+<!-- <form id="formNewCustomer" name="formCustomer" #customerData="ngForm" (submit)="addNewCustomer(customerData.value);">
+    <label>ID:</label>
+    <input type="text" name ="id" id="id" placeholder="id" ngModel><br>
+    
+    <label>Tên:</label>
+    <input type="text" name ="tenKhachHang" id="tenKhachHang" placeholder="tên khách hàng" [(ngModel)]="tenKhachHang"><br>
+    
+    <label>Loại khách hàng:</label>
+    <input type="text" name ="loaiKhachHang" id="loaiKhachHang" placeholder="loại khách hàng" [(ngModel)]="loaiKhachHang"><br>
+    
+    <label>Ngày sinh:</label>
+    <input type="text" name ="ngaySinh" id="ngaySinh" placeholder="ngày sinh" [(ngModel)]="ngaySinh"><br>
+    
+    <label>Số chứng minh thư:</label>
+    <input type="text" name ="soCmnd" id="soCmnd" placeholder="số chứng minh thư" [(ngModel)]="soCmnd"><br>
+    
+    <label>Số điện thoại:</label>
+    <input type="text" name ="soDT" id="soDT" placeholder="số điện thoại" [(ngModel)]="soDT"><br>
+    
+    <label>Email:</label>
+    <input type="text" name ="email" id="email" placeholder="email" [(ngModel)]="email"><br>
+    
+    <label>Địa chỉ:</label>
+    <input type="text" name ="diaChi" id="diaChi" placeholder="địa chỉ" [(ngModel)]="diaChi"><br>
+    
+    <button>Add Customer</button>
+    </form>
+     -->
