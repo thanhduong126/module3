@@ -1,1 +1,52 @@
-<p>create-hopdong works!</p>
+<div class="container">
+    <div class="form-group col-md-3 col-md-offset-3 align-center ">
+        <form id="formNewHopDong" name="formHopDong" (submit)="addNewHopDong(Contact.value);" [formGroup]="Contact">
+            <!-- id: number;
+            tenHopDong:string;
+            tenKhachHang:string;
+            tenNhanVien:string;
+            tenDichVu:string;
+            ngayLamHopDong:string;
+            ngayKetThuc:string;
+            tongTien:number; -->
+
+            <label>Tên Hợp đồng:</label>
+            <input type="text" name="tenHopDong" id="tenHopDong" placeholder="tên dịch vụ"
+                formControlName="tenHopDong"><br>
+
+            <label>Chọn khách hàng muốn đăng ký dịch vụ:</label>
+            <select [(ngModel)]="selectedOption">
+                <option *ngFor="let o of customer">
+                    {{o.tenKhachHang}}
+                </option>
+            </select>
+
+            <label>Chọn nhân viên đăng ký dịch vụ:</label>
+            <select [(ngModel)]="selectedOption">
+                <option *ngFor="let o of employee">
+                    {{o.tenNhanVien}}
+                </option>
+            </select>
+
+            <label>Chọn dịch vụ muốn đăng ký:</label>
+            <select [(ngModel)]="selectedOption" >
+                <option *ngFor="let o of dichvu">
+              {{o.tenDichVu}}
+                </option>
+            </select>
+
+            <label>Ngày làm hợp đồng:</label><br>
+            <input type="date" name="ngayLamHopDong" id="ngayLamHopDong" formControlName="ngayLamHopDong"><br>
+
+            <label>Ngày kết thúc hợp đồng:</label><br>
+            <input type="date" name="ngayKetThuc" id="ngayKetThuc" formControlName="ngayKetThuc"><br>
+            
+            <label>Tổng tiền:</label><br>
+            <input type="text" name="tongTien" id="tongTien" formControlName="tongTien"><br>
+
+
+
+            <input type="submit" value="Add dịch vụ" [disabled]="!Contact.valid">
+        </form>
+    </div>
+</div>

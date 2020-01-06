@@ -126,6 +126,16 @@
       "ngayKetThucHopDong": "07/04/2019",
       "tienDatCoc": 130000,
       "tongTien": 1300000
+    },
+    {
+      "id": 4,
+      "tenHopDong": "Furama",
+      "tenKhachHang": "",
+      "tenNhanVien": "",
+      "tenDichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
     }
   ],
   "Dichvu": [
@@ -139,16 +149,26 @@
       "trangThai": "vẫn còn"
     }
   ],
-   "Hopdong": [
+  "Hopdong": [
     {
       "id": 1,
-      "tenHopDong":"Villa",
-      "tenKhachHang":"Nguyen Van A",
-      "tenNhanVien":"Nguyen Van C",
+      "tenHopDong": "Villa",
+      "tenKhachHang": "Nguyen Van A",
+      "tenNhanVien": "Nguyen Van C",
       "tenDichVu": "Villa2",
       "ngayLamHopDong": "01/01/2019",
       "ngayKetThuc": "05/01/2019",
       "tongTien": 5000000
+    },
+    {
+      "id": 4,
+      "tenHopDong": "Furama",
+      "tenKhachHang": "",
+      "tenNhanVien": "",
+      "tenDichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
     }
   ]
 }

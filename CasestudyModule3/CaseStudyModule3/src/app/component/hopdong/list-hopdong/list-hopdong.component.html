@@ -1,1 +1,36 @@
-<p>list-hopdong works!</p>
+<nav class="navbar">
+    <nav class="navbar"><h3 style="color: blue;">Search:</h3>
+      <input class="form-control" type="text" name="search" [(ngModel)]="filter" placeholder="Tìm kiếm dịch vụ">      
+    </nav>
+  </nav>
+  <h1 style="text-align: center;">Danh sách hợp đồng</h1>
+  <table class="table" style="text-align: center; ">
+      <thead>
+        <tr>
+          <th scope="col">ID </th>
+          <th scope="col">Tên hợp đồng </th>
+          <th scope="col">Tên khách hàng </th>
+          <th scope="col">Tên nhân viên </th>
+          <th scope="col">Tên dịch vụ </th>
+          <th scope="col">Ngày làm hợp đồng </th>
+          <th scope="col">Ngày kết thúc </th>
+          <th scope="col">Tổng tiền </th>
+          <th scope="col">Tùy chỉnh </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let temp of hopdong | filter:filter | paginate: { itemsPerPage: 5, currentPage: p }; let i = index">
+          <td>{{temp.id}}</td>
+          <td>{{temp.tenHopDong}}</td>
+          <td>{{temp.tenKhachHang}}</td>
+          <td>{{temp.tenNhanVien}}</td>
+          <td>{{temp.tenDichVu}}</td>
+          <td>{{temp.ngayLamHopDong}}</td>
+          <td>{{temp.ngayKetThuc}}</td>
+          <td>{{temp.tongTien}}</td>
+          <input type="button" (click)="deleteHopDong(temp.id)" value="Delete">
+        </tr>
+
+      </tbody>
+    </table>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
