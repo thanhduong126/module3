@@ -8,10 +8,10 @@ import { ListEmployeeComponent } from './component/employee/list-employee/list-e
 import { CreateEmployeeComponent } from './component/employee/create-employee/create-employee.component';
 import { UpdateEmployeeComponent } from './component/employee/update-employee/update-employee.component';
 import { DetailEmployeeComponent } from './component/employee/detail-employee/detail-employee.component';
+import { DichvuComponent } from './component/dichvu/dichvu.component';
 
 
 const routes: Routes = [
-
   //Customer
   {
     path: "list", component: ListCustomerComponent
@@ -38,8 +38,12 @@ const routes: Routes = [
   },
   {
     path: "updateEmployee/:id", component: UpdateEmployeeComponent
+  }, 
+  
+  //dichvu
+  {
+    path: "listDichVu", component: DichvuComponent
   },
-
 ];
 
 @NgModule({

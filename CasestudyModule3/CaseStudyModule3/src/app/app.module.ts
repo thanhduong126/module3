@@ -16,10 +16,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { Ng2OrderModule } from 'ng2-order-pipe';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { DetailEmployeeComponent } from './component/employee/detail-employee/detail-employee.component';
-import { DichvuComponent } from './component/dichvu/dichvu/dichvu.component';
-import { HopdongComponent } from './component/hopdong/hopdong/hopdong.component';
-import { HopdongchitietComponent } from './component/hopdongchitiet/hopdongchitiet/hopdongchitiet.component';
-
+import { DichvuComponent } from './component/dichvu/dichvu.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,10 +29,7 @@ import { HopdongchitietComponent } from './component/hopdongchitiet/hopdongchiti
     CustomerDetailComponent,
     ErrorsComponent,
     DetailEmployeeComponent,
-    DichvuComponent,
-    HopdongComponent,
-    HopdongchitietComponent,
-
+    DichvuComponent
   ],
   imports: [
     BrowserModule,

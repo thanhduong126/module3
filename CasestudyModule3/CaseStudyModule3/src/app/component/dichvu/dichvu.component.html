@@ -1,0 +1,23 @@
+<nav class="navbar">
+    <nav class="navbar"><h3 style="color: blue;">Search:</h3>
+      <input class="form-control" type="text" name="search" [(ngModel)]="filter" placeholder="Tìm kiếm dịch vụ">      
+    </nav>
+  </nav>
+  <h1 style="text-align: center;">Danh sách dịch vụ</h1>
+  <table class="table" style="text-align: center; ">
+      <thead>
+        <tr>
+          <th scope="col">ID </th>
+          <th scope="col">Tên dịch vụ </th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let temp of dichvu | filter:filter | paginate: { itemsPerPage: 5, currentPage: p }; let i = index">
+          <td>{{temp.id}}</td>
+          <td>{{temp.tenDichVu}}</td>  
+        </tr>
+       
+      </tbody>
+    </table>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>

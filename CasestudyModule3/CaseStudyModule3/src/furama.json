@@ -1,26 +1,6 @@
 {
   "customer": [
     {
-      "id": 3,
-      "tenKhachHang": "Nguyễn Văn BBB",
-      "loaiKhachHang": "Nomal",
-      "ngaySinh": "09/02/1995",
-      "soCmnd": "12121212111",
-      "soDT": "12312312311",
-      "email": "sadnight921995@yahoo.com",
-      "diaChi": "Quảng Nam"
-    },
-    {
-      "id": 8,
-      "tenKhachHang": "Nguyễn Văn A",
-      "loaiKhachHang": "Nomal",
-      "ngaySinh": "213",
-      "soCmnd": "2131231212",
-      "soDT": "3243242",
-      "email": "sadnight921995@yahoo.com",
-      "diaChi": "Hà Nội"
-    },
-    {
       "id": 9,
       "tenKhachHang": "Nguyễn Văn A",
       "loaiKhachHang": "Vip",
@@ -179,6 +159,20 @@
       "ngayKetThucHopDong": "07/04/2019",
       "tienDatCoc": 130000,
       "tongTien": 1300000
+    }
+  ],
+  "Dichvu": [
+    {
+      "id": 1,
+      "tenDichVu": "Villa"
+    },
+    {
+      "id": 2,
+      "tenDichVu": "House"
+    },
+    {
+      "id": 3,
+      "tenDichVu": "Room"
     }
   ]
 }
