@@ -9,6 +9,12 @@
         <tr>
           <th scope="col">ID </th>
           <th scope="col">Tên dịch vụ </th>
+          <th scope="col">Diện tích </th>
+          <th scope="col">Số tầng </th>
+          <th scope="col">Số người tối đa </th>
+          <th scope="col">Chi phí thuê </th>
+          <th scope="col">Trạng thái </th>
+          <th scope="col">Tùy chọn </th>
 
         </tr>
       </thead>
@@ -16,8 +22,14 @@
         <tr *ngFor="let temp of dichvu | filter:filter | paginate: { itemsPerPage: 5, currentPage: p }; let i = index">
           <td>{{temp.id}}</td>
           <td>{{temp.tenDichVu}}</td>  
+          <td>{{temp.dienTich}}</td>  
+          <td>{{temp.soTang}}</td>  
+          <td>{{temp.soNguoiToiDa}}</td>  
+          <td>{{temp.chiPhiThue}}</td>  
+          <td>{{temp.trangThai}}</td>  
+          <input type="button" (click)="deleteDichVu(temp.id)" value="Delete">
         </tr>
-       
+
       </tbody>
     </table>
     <pagination-controls (pageChange)="p = $event"></pagination-controls>

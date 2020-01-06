@@ -94,39 +94,6 @@
       "soCmnd": "012345698",
       "email": "nguyenvana@gmail.com",
       "diaChi": "Quảng Nam"
-    },
-    {
-      "id": 4,
-      "tenNhanVien": "dsfsd",
-      "viTri": "Phó phòng",
-      "trinhDo": "",
-      "boPhan": "makerting",
-      "ngaySinh": "2020-01-15",
-      "soCmnd": "Hue",
-      "email": "duong@gmail.com",
-      "diaChi": ""
-    },
-    {
-      "id": 5,
-      "tenNhanVien": "sadas",
-      "viTri": "",
-      "trinhDo": "",
-      "boPhan": "",
-      "ngaySinh": "",
-      "soCmnd": "",
-      "email": "",
-      "diaChi": ""
-    },
-    {
-      "id": 6,
-      "tenNhanVien": "ádas",
-      "viTri": "",
-      "trinhDo": "",
-      "boPhan": "",
-      "ngaySinh": "",
-      "soCmnd": "",
-      "email": "",
-      "diaChi": ""
     }
   ],
   "HopDong": [
@@ -164,15 +131,24 @@
   "Dichvu": [
     {
       "id": 1,
-      "tenDichVu": "Villa"
-    },
+      "tenDichVu": "Villa2",
+      "dienTich": "30",
+      "soTang": "6",
+      "soNguoiToiDa": "4",
+      "chiPhiThue": "30000000",
+      "trangThai": "vẫn còn"
+    }
+  ],
+   "Hopdong": [
     {
-      "id": 2,
-      "tenDichVu": "House"
-    },
-    {
-      "id": 3,
-      "tenDichVu": "Room"
+      "id": 1,
+      "tenHopDong":"Villa",
+      "tenKhachHang":"Nguyen Van A",
+      "tenNhanVien":"Nguyen Van C",
+      "tenDichVu": "Villa2",
+      "ngayLamHopDong": "01/01/2019",
+      "ngayKetThuc": "05/01/2019",
+      "tongTien": 5000000
     }
   ]
 }

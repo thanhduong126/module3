@@ -16,7 +16,14 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { Ng2OrderModule } from 'ng2-order-pipe';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { DetailEmployeeComponent } from './component/employee/detail-employee/detail-employee.component';
-import { DichvuComponent } from './component/dichvu/dichvu.component';
+import { DichvuComponent } from './component/DichVuComponent/dichvu/dichvu.component';
+import { CreateDichvuComponent } from './component/DichVuComponent/create-dichvu/create-dichvu.component';
+import { UpdateDichvuComponent } from './component/DichVuComponent/update-dichvu/update-dichvu.component';
+import { ListHopdongComponent } from './component/hopdong/list-hopdong/list-hopdong.component';
+import { CreateHopdongComponent } from './component/hopdong/create-hopdong/create-hopdong.component';
+import { ChitietHopdongComponent } from './component/hopdong/chitiet-hopdong/chitiet-hopdong.component';
+import { UpdateHopdongComponent } from './component/hopdong/update-hopdong/update-hopdong.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +36,13 @@ import { DichvuComponent } from './component/dichvu/dichvu.component';
     CustomerDetailComponent,
     ErrorsComponent,
     DetailEmployeeComponent,
-    DichvuComponent
+    DichvuComponent,
+    CreateDichvuComponent,
+    UpdateDichvuComponent,
+    ListHopdongComponent,
+    CreateHopdongComponent,
+    ChitietHopdongComponent,
+    UpdateHopdongComponent
   ],
   imports: [
     BrowserModule,

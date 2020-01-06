@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="form-group col-md-3 col-md-offset-3 align-center ">
+        <form id="formNewDichVu" name="formDichVu" (submit)="addNewDichVu(Contact.value);" [formGroup]="Contact">
+  
+
+            <label>Tên dịch vụ:</label>
+            <input type="text" name="tenDichVu" id="tenDichVu" placeholder="tên dịch vụ"
+                formControlName="tenDichVu"><br>
+
+            <label>Diện tích:</label>
+            <input type="text" name="dienTich" id="dienTich" placeholder="diện tích"
+                formControlName="dienTich"><br>
+                
+            <label>Số tầng:</label>
+            <input type="text" name="soTang" id="soTang" placeholder="số tầng"
+                formControlName="soTang"><br>  
+
+            <label>Số người tối đa:</label>
+            <input type="text" name="soNguoiToiDa" id="soNguoiToiDa" placeholder="số người tối đa"
+                formControlName="soNguoiToiDa"><br>
+
+            <label>Chi phí thuê:</label>
+            <input type="text" name="chiPhiThue" id="chiPhiThue" placeholder="chi phí thuê"
+                formControlName="chiPhiThue"><br>
+                
+            <label>Trạng thái:</label>
+            <input type="text" name="trangThai" id="trangThai" placeholder="trạng thái"
+                formControlName="trangThai"><br>
+
+
+
+            <input type="submit" value="Add dịch vụ" [disabled]="!Contact.valid">
+        </form>
+    </div>
+</div>

@@ -8,7 +8,13 @@ import { ListEmployeeComponent } from './component/employee/list-employee/list-e
 import { CreateEmployeeComponent } from './component/employee/create-employee/create-employee.component';
 import { UpdateEmployeeComponent } from './component/employee/update-employee/update-employee.component';
 import { DetailEmployeeComponent } from './component/employee/detail-employee/detail-employee.component';
-import { DichvuComponent } from './component/dichvu/dichvu.component';
+import { DichvuComponent } from './component/DichVuComponent/dichvu/dichvu.component';
+import { CreateDichvuComponent } from './component/DichVuComponent/create-dichvu/create-dichvu.component';
+import { UpdateDichvuComponent } from './component/DichVuComponent/update-dichvu/update-dichvu.component';
+import { ListHopdongComponent } from './component/hopdong/list-hopdong/list-hopdong.component';
+import { CreateHopdongComponent } from './component/hopdong/create-hopdong/create-hopdong.component';
+import { UpdateHopdongComponent } from './component/hopdong/update-hopdong/update-hopdong.component';
+import { ChitietHopdongComponent } from './component/hopdong/chitiet-hopdong/chitiet-hopdong.component';
 
 
 const routes: Routes = [
@@ -44,6 +50,26 @@ const routes: Routes = [
   {
     path: "listDichVu", component: DichvuComponent
   },
+  {
+    path: "CreateDichVu", component: CreateDichvuComponent
+  },
+  {
+    path: "updateDichVu/:id", component: UpdateDichvuComponent
+  }, 
+
+  //hopdong
+  {
+    path: "listHopDong", component: ListHopdongComponent
+  },
+  {
+    path: "createHopDong", component: CreateHopdongComponent
+  },
+  {
+    path: "updateHopDong/:id", component: UpdateHopdongComponent
+  }, 
+  {
+    path: "detailHopDong/:id", component: ChitietHopdongComponent
+  }, 
 ];
 
 @NgModule({
