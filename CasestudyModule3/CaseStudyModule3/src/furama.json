@@ -63,17 +63,6 @@
   ],
   "employee": [
     {
-      "id": 1,
-      "tenNhanVien": "Nguyễn Văn BB",
-      "viTri": "Phó phòng",
-      "trinhDo": "Đại học",
-      "boPhan": "makerting",
-      "ngaySinh": "11/15/1992",
-      "soCmnd": "012345698",
-      "email": "nguyenvanb@gmail.com",
-      "diaChi": "Huế"
-    },
-    {
       "id": 2,
       "tenNhanVien": "Nguyễn Văn C",
       "viTri": "Nhân viên",
@@ -128,11 +117,108 @@
       "tongTien": 1300000
     },
     {
-      "id": 4,
-      "tenHopDong": "Furama",
-      "tenKhachHang": "",
-      "tenNhanVien": "",
-      "tenDichVu": "",
+      "id": 10,
+      "tenhopDong": "",
+      "khachHang": "",
+      "nhanVien": {
+        "id": 2,
+        "tenNhanVien": "Nguyễn Văn C",
+        "viTri": "Nhân viên",
+        "trinhDo": "Cao đẳng",
+        "boPhan": "Chăm sóc khách hàng",
+        "ngaySinh": "01/05/1993",
+        "soCmnd": "012345691",
+        "email": "nguyenvanc@gmail.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "dichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
+    },
+    {
+      "id": 11,
+      "tenhopDong": "",
+      "khachHang": "",
+      "nhanVien": "",
+      "dichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
+    },
+    {
+      "id": 12,
+      "tenhopDong": "",
+      "khachHang": "",
+      "nhanVien": "",
+      "dichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
+    },
+    {
+      "id": 13,
+      "tenhopDong": "",
+      "khachHang": "",
+      "nhanVien": "",
+      "dichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
+    },
+    {
+      "id": 14,
+      "tenhopDong": "",
+      "khachHang": "",
+      "nhanVien": {
+        "id": 2,
+        "tenNhanVien": "Nguyễn Văn C",
+        "viTri": "Nhân viên",
+        "trinhDo": "Cao đẳng",
+        "boPhan": "Chăm sóc khách hàng",
+        "ngaySinh": "01/05/1993",
+        "soCmnd": "012345691",
+        "email": "nguyenvanc@gmail.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "dichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
+    },
+    {
+      "id": 15,
+      "tenhopDong": "",
+      "khachHang": {
+        "id": 9,
+        "tenKhachHang": "Nguyễn Văn A",
+        "loaiKhachHang": "Vip",
+        "ngaySinh": "213",
+        "soCmnd": "12121212111",
+        "soDT": "32423",
+        "email": "sadnight921995@yahoo.com",
+        "diaChi": "Huế"
+      },
+      "nhanVien": {
+        "id": 1,
+        "tenNhanVien": "Nguyễn Văn BB",
+        "viTri": "Phó phòng",
+        "trinhDo": "Đại học",
+        "boPhan": "makerting",
+        "ngaySinh": "11/15/1992",
+        "soCmnd": "012345698",
+        "email": "nguyenvanb@gmail.com",
+        "diaChi": "Huế"
+      },
+      "dichVu": {
+        "id": 1,
+        "tenDichVu": "Villa2",
+        "dienTich": "30",
+        "soTang": "6",
+        "soNguoiToiDa": "4",
+        "chiPhiThue": "30000000",
+        "trangThai": "vẫn còn"
+      },
       "ngayLamHopDong": "",
       "ngayKetThuc": "",
       "tongTien": ""
@@ -151,21 +237,108 @@
   ],
   "Hopdong": [
     {
-      "id": 1,
-      "tenHopDong": "Villa",
-      "tenKhachHang": "Nguyen Van A",
-      "tenNhanVien": "Nguyen Van C",
-      "tenDichVu": "Villa2",
-      "ngayLamHopDong": "01/01/2019",
-      "ngayKetThuc": "05/01/2019",
-      "tongTien": 5000000
+      "id": 10,
+      "tenhopDong": "",
+      "khachHang": "",
+      "nhanVien": {
+        "id": 2,
+        "tenNhanVien": "Nguyễn Văn C",
+        "viTri": "Nhân viên",
+        "trinhDo": "Cao đẳng",
+        "boPhan": "Chăm sóc khách hàng",
+        "ngaySinh": "01/05/1993",
+        "soCmnd": "012345691",
+        "email": "nguyenvanc@gmail.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "dichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
     },
     {
-      "id": 4,
-      "tenHopDong": "Furama",
-      "tenKhachHang": "",
-      "tenNhanVien": "",
-      "tenDichVu": "",
+      "id": 11,
+      "tenhopDong": "",
+      "khachHang": "",
+      "nhanVien": "",
+      "dichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
+    },
+    {
+      "id": 12,
+      "tenhopDong": "",
+      "khachHang": "",
+      "nhanVien": "",
+      "dichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
+    },
+    {
+      "id": 13,
+      "tenhopDong": "",
+      "khachHang": "",
+      "nhanVien": "",
+      "dichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
+    },
+    {
+      "id": 14,
+      "tenhopDong": "",
+      "khachHang": "",
+      "nhanVien": {
+        "id": 2,
+        "tenNhanVien": "Nguyễn Văn C",
+        "viTri": "Nhân viên",
+        "trinhDo": "Cao đẳng",
+        "boPhan": "Chăm sóc khách hàng",
+        "ngaySinh": "01/05/1993",
+        "soCmnd": "012345691",
+        "email": "nguyenvanc@gmail.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "dichVu": "",
+      "ngayLamHopDong": "",
+      "ngayKetThuc": "",
+      "tongTien": ""
+    },
+    {
+      "id": 15,
+      "tenhopDong": "",
+      "khachHang": {
+        "id": 9,
+        "tenKhachHang": "Nguyễn Văn A",
+        "loaiKhachHang": "Vip",
+        "ngaySinh": "213",
+        "soCmnd": "12121212111",
+        "soDT": "32423",
+        "email": "sadnight921995@yahoo.com",
+        "diaChi": "Huế"
+      },
+      "nhanVien": {
+        "id": 1,
+        "tenNhanVien": "Nguyễn Văn BB",
+        "viTri": "Phó phòng",
+        "trinhDo": "Đại học",
+        "boPhan": "makerting",
+        "ngaySinh": "11/15/1992",
+        "soCmnd": "012345698",
+        "email": "nguyenvanb@gmail.com",
+        "diaChi": "Huế"
+      },
+      "dichVu": {
+        "id": 1,
+        "tenDichVu": "Villa2",
+        "dienTich": "30",
+        "soTang": "6",
+        "soNguoiToiDa": "4",
+        "chiPhiThue": "30000000",
+        "trangThai": "vẫn còn"
+      },
       "ngayLamHopDong": "",
       "ngayKetThuc": "",
       "tongTien": ""

@@ -23,6 +23,7 @@ export class DetailEmployeeComponent implements OnInit {
     })
   }
   deleteEmployee = function (id: number) {
+    if(confirm("Bạn có muốn xóa không!")){
     this.employeeService.deleteEmployee(id).subscribe(data =>
       this.employeeService.getAllEmployee().subscribe(data => {
         this.employee = data;
@@ -31,7 +32,9 @@ export class DetailEmployeeComponent implements OnInit {
       })
     )
   }
+  }
   updateEmployee(id: number) {
     this.router.navigateByUrl("/updateEmployee/" + id)
   }
+
 }

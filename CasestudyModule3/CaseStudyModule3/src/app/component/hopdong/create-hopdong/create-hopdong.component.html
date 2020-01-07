@@ -15,22 +15,22 @@
                 formControlName="tenHopDong"><br>
 
             <label>Chọn khách hàng muốn đăng ký dịch vụ:</label>
-            <select [(ngModel)]="selectedOption">
-                <option *ngFor="let o of customer">
+            <select formControlName="khachHang" >
+                <option *ngFor="let o of customer"  [ngValue]="o">
                     {{o.tenKhachHang}}
                 </option>
             </select>
 
             <label>Chọn nhân viên đăng ký dịch vụ:</label>
-            <select [(ngModel)]="selectedOption">
-                <option *ngFor="let o of employee">
+            <select formControlName="nhanVien">
+                <option *ngFor="let o of employee"  [ngValue]="o">
                     {{o.tenNhanVien}}
                 </option>
             </select>
 
             <label>Chọn dịch vụ muốn đăng ký:</label>
-            <select [(ngModel)]="selectedOption" >
-                <option *ngFor="let o of dichvu">
+            <select formControlName="dichVu" >
+                <option *ngFor="let o of dichvu"  [ngValue]="o">
               {{o.tenDichVu}}
                 </option>
             </select>

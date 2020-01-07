@@ -43,9 +43,9 @@ export class CreateHopdongComponent implements OnInit {
     this.Contact = this.fb.group({
       id:[''],
       tenHopDong:[''],
-      tenKhachHang:[''],
-      tenNhanVien:[''],
-      tenDichVu:[''],
+      khachHang:[''],
+      nhanVien:[''],
+      dichVu:[''],
       ngayLamHopDong:[''],
       ngayKetThuc:[''],
       tongTien:[''],
@@ -55,8 +55,8 @@ export class CreateHopdongComponent implements OnInit {
   addNewHopDong(hopdongobj){
     if(this.Contact.valid){
       this.hopdongService.createHopDong(new HopDong(hopdongobj.id,
-        hopdongobj.tenHopDong,hopdongobj.tenKhachHang,hopdongobj.tenNhanVien,
-        hopdongobj.tenDichVu,hopdongobj.ngayLamHopDong,hopdongobj.ngayKetThuc,
+        hopdongobj.tenHopDong,hopdongobj.khachHang,hopdongobj.nhanVien,
+        hopdongobj.dichVu,hopdongobj.ngayLamHopDong,hopdongobj.ngayKetThuc,
         hopdongobj.tongTien)).subscribe(data=>{
           this.router.navigateByUrl("/listHopDong")
         });

@@ -22,9 +22,9 @@
         <tr *ngFor="let temp of hopdong | filter:filter | paginate: { itemsPerPage: 5, currentPage: p }; let i = index">
           <td>{{temp.id}}</td>
           <td>{{temp.tenHopDong}}</td>
-          <td>{{temp.tenKhachHang}}</td>
-          <td>{{temp.tenNhanVien}}</td>
-          <td>{{temp.tenDichVu}}</td>
+          <td>{{temp.khachHang.tenKhachHang}}</td>
+          <td>{{temp.nhanVien.tenNhanVien}}</td>
+          <td>{{temp.dichVu.tenDichVu}}</td>
           <td>{{temp.ngayLamHopDong}}</td>
           <td>{{temp.ngayKetThuc}}</td>
           <td>{{temp.tongTien}}</td>
