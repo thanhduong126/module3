@@ -1,0 +1,18 @@
+<style>
+    h3{
+        color: blue;
+    }
+    </style>
+  
+    <form>
+        <h1>Book Detail</h1>
+    <h3>ID: {{book.id}}</h3>
+    <h3>Title: {{book.title}}</h3>
+    <h3>Author: {{book.author}}</h3>
+    <h3>Description: {{book.description}}</h3>
+    
+    <input type="button" (click)="updateBook(book.id)" value="Edit">
+    <input type="button" (click)="deleteBook(book.id)" value="Delete">
+    <input type="button" (click)="listBook()" value="Thoát">
+    </form>
+ 

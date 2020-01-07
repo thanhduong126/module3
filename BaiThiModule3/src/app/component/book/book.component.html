@@ -1,0 +1,33 @@
+<nav class="navbar">
+    <nav class="navbar"><h3 style="color: blue;">Search:</h3>
+      <input class="form-control" type="text" name="search" [(ngModel)]="filter" placeholder="Tìm kiếm khách hàng">      
+    </nav>
+  </nav>
+  <h1 style="text-align: center;">Book</h1>
+  <table class="table" style="text-align: center; ">
+      <thead>
+        <tr >
+        
+          <th scope="col">ID </th>
+          <th scope="col">Title </th>
+          <th scope="col">Author </th>
+          <th scope="col">Description </th>
+          <!-- <th scope="col">Chỉnh sửa </th> -->
+          <th scope="col">Tùy chỉnh </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let temp of book | filter:filter | paginate: { itemsPerPage: 4, currentPage: p }; let i = index">
+          <td>{{temp.id}}</td>
+          <td>{{temp.title}}</td>
+          <td>{{temp.author}}</td>
+          <td>{{temp.description}}</td>
+          <!-- <td> <input type="button" (click)="updateBook()" value="Edit"> </td> -->
+          <td> <input type="button" (click)="detailBook(temp.id)" value="Xem chi tiết"> </td>
+
+        
+        </tr>
+       
+      </tbody>
+    </table>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>

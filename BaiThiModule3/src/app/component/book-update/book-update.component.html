@@ -1,0 +1,16 @@
+
+<form id="formNewBook" name="formBook" #bookData="ngForm" (submit)="updateBook();">
+    <h1>Update</h1>
+    <!-- <label>ID:</label>
+    <input type="text" name ="id" id="id" [(ngModel)]="book.id" ngModel disabled><br> -->
+    <label>Title:</label>
+    <input type="text" name ="title" id="title" [(ngModel)]="book.title" ><br> 
+    
+    <label>Author:</label>
+    <input type="text" name ="author" id="author" [(ngModel)]="book.author" ><br> 
+    
+    <label>Description:</label>
+    <input type="text" name ="description" id="description" [(ngModel)]="book.description" style="width: 1100px; "><br>
+    
+    <input type="submit" value="Update book">
+    </form>

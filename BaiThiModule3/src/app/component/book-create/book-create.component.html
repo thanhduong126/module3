@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="form-group col-md-3 col-md-offset-3 align-center ">
+        <form id="formNewBook" name="formBook" (submit)="addNewBook(Contact.value);" [formGroup]="Contact">
+<!-- 
+            <label>ID:</label>
+            <input type="text" name="id" id="id" placeholder="ID" formControlName="id"><br> -->
+            <label>Title:</label>
+            <input type="text" name="title" id="title" placeholder="title" formControlName="title"><br>
+
+            <label>Author:</label>
+            <input type="text" name="author" id="author" placeholder="author" formControlName="author"><br>
+
+            <label>Description:</label>
+            <input type="text" name="description" id="description" placeholder="description" formControlName="description"><br>
+
+            <input type="submit" value="Add Book">
+        </form>
+    </div>
+</div>
