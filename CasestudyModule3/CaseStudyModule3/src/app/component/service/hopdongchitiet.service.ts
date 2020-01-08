@@ -5,26 +5,28 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class HopdongService {
+export class HopdongchitietService {
 
   constructor(private http: HttpClient) { }
+  private baseUrl = 'http://localhost:3000/HopDongChiTiet';
 
-  private baseUrl = 'http://localhost:3000/Hopdong';
-
-  getAllHopDong(): Observable<any> {
+  getAllHopDongChiTiet(): Observable<any> {
     return this.http.get(this.baseUrl);
   }
-  createHopDong(obj: any): Observable<any> {
+  createHopDongChiTiet(obj: any): Observable<any> {
     console.log(obj)
     return this.http.post(this.baseUrl, obj);
   }
-  deleteHopDong(id: number): Observable<any> {
+  deleteHopDongChiTiet(id: number): Observable<any> {
     return this.http.delete<any>(this.baseUrl + "/" + id);
   }
-  updateHopDong(obj: any): Observable<any> {
+
+  updateHopDongChiTiet(obj: any): Observable<any> {
     return this.http.patch(`${this.baseUrl}/${obj.id}`, obj);
   }
-  getHopDong(id: number): Observable<any> {
+  getHopDongChiTiet(id: number): Observable<any> {
     return this.http.get(this.baseUrl + "/" + id);
   }
+
+
 }

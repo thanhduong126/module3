@@ -22,9 +22,7 @@ export class CustomerService {
   deleteService(id: number): Observable<any> {
     return this.http.delete<any>(this.baseUrl + "/" + id);
   }
-  // updateService(id: number, obj: any): Observable<any> {
-  //   return this.http.patch(this.baseUrl+ id, obj);
-  // }
+
   updateCustomer(obj: any): Observable<any> {
     return this.http.patch(`${this.baseUrl}/${obj.id}`,obj);
   }

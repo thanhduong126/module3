@@ -23,6 +23,10 @@ import { ListHopdongComponent } from './component/hopdong/list-hopdong/list-hopd
 import { CreateHopdongComponent } from './component/hopdong/create-hopdong/create-hopdong.component';
 import { ChitietHopdongComponent } from './component/hopdong/chitiet-hopdong/chitiet-hopdong.component';
 import { UpdateHopdongComponent } from './component/hopdong/update-hopdong/update-hopdong.component';
+import { ListHopdongchitietComponent } from './component/hopdongchitiet/list-hopdongchitiet/list-hopdongchitiet.component';
+import { CreateHopdongchitietComponent } from './component/hopdongchitiet/create-hopdongchitiet/create-hopdongchitiet.component';
+import { UpdateHopdongchitietComponent } from './component/hopdongchitiet/update-hopdongchitiet/update-hopdongchitiet.component';
+import { DetailHopdongchitietComponent } from './component/hopdongchitiet/detail-hopdongchitiet/detail-hopdongchitiet.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { UpdateHopdongComponent } from './component/hopdong/update-hopdong/updat
     ListHopdongComponent,
     CreateHopdongComponent,
     ChitietHopdongComponent,
-    UpdateHopdongComponent
+    UpdateHopdongComponent,
+    ListHopdongchitietComponent,
+    CreateHopdongchitietComponent,
+    UpdateHopdongchitietComponent,
+    DetailHopdongchitietComponent
   ],
   imports: [
     BrowserModule,

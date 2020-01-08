@@ -14,6 +14,7 @@ export class ListHopdongComponent implements OnInit {
   ngOnInit() {
     this.hopdongService.getAllHopDong().subscribe(data => {
       this.hopdong = data;
+      console.log(this.hopdong);
     });
   }
   deleteHopDong = function (id: number) {
@@ -21,8 +22,8 @@ export class ListHopdongComponent implements OnInit {
         this.hopdongService.getAllHopDong().subscribe(data => {
           this.hopdong = data;
         this.router.navigateByUrl("/listHopDong");
-        
       })}
     )
+
   }
 }

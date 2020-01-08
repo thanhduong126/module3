@@ -15,6 +15,10 @@ import { ListHopdongComponent } from './component/hopdong/list-hopdong/list-hopd
 import { CreateHopdongComponent } from './component/hopdong/create-hopdong/create-hopdong.component';
 import { UpdateHopdongComponent } from './component/hopdong/update-hopdong/update-hopdong.component';
 import { ChitietHopdongComponent } from './component/hopdong/chitiet-hopdong/chitiet-hopdong.component';
+import { ListHopdongchitietComponent } from './component/hopdongchitiet/list-hopdongchitiet/list-hopdongchitiet.component';
+import { CreateHopdongchitietComponent } from './component/hopdongchitiet/create-hopdongchitiet/create-hopdongchitiet.component';
+import { UpdateHopdongchitietComponent } from './component/hopdongchitiet/update-hopdongchitiet/update-hopdongchitiet.component';
+import { DetailHopdongchitietComponent } from './component/hopdongchitiet/detail-hopdongchitiet/detail-hopdongchitiet.component';
 
 
 const routes: Routes = [
@@ -69,6 +73,20 @@ const routes: Routes = [
   }, 
   {
     path: "detailHopDong/:id", component: ChitietHopdongComponent
+  }, 
+
+  //hopdongchitiet
+  {
+    path: "listHopDongChiTiet", component: ListHopdongchitietComponent
+  },
+  {
+    path: "createHopDongChiTiet", component: CreateHopdongchitietComponent
+  },
+  {
+    path: "updateHopDongChiTiet/:id", component: UpdateHopdongchitietComponent
+  }, 
+  {
+    path: "detailHopDongChiTiet/:id", component: DetailHopdongchitietComponent
   }, 
 ];
 

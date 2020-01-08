@@ -136,3 +136,7 @@ height: 300px;
   #left div ul li a{
     border-radius: 10%;
   }
+  div.a{
+    background-color: #4CAF50;
+    position: static;
+  }

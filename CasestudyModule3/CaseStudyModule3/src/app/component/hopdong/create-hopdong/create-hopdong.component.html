@@ -1,17 +1,9 @@
 <div class="container">
     <div class="form-group col-md-3 col-md-offset-3 align-center ">
         <form id="formNewHopDong" name="formHopDong" (submit)="addNewHopDong(Contact.value);" [formGroup]="Contact">
-            <!-- id: number;
-            tenHopDong:string;
-            tenKhachHang:string;
-            tenNhanVien:string;
-            tenDichVu:string;
-            ngayLamHopDong:string;
-            ngayKetThuc:string;
-            tongTien:number; -->
 
             <label>Tên Hợp đồng:</label>
-            <input type="text" name="tenHopDong" id="tenHopDong" placeholder="tên dịch vụ"
+            <input type="text" name="tenHopDong" id="tenHopDong" placeholder="tên hợp đồng"
                 formControlName="tenHopDong"><br>
 
             <label>Chọn khách hàng muốn đăng ký dịch vụ:</label>

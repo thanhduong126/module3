@@ -1,0 +1,27 @@
+<nav class="navbar">
+    <nav class="navbar"><h3 style="color: blue;">Search:</h3>
+      <input class="form-control" type="text" name="search" [(ngModel)]="filter" placeholder="Tìm kiếm hợp đồng chi tiết">      
+    </nav>
+  </nav>
+  <h1 style="text-align: center;">Danh sách hợp đồng chi tiết</h1>
+  <table class="table" style="text-align: center; ">
+      <thead>
+        <tr>
+          <th scope="col">ID </th>
+          <th scope="col">Hợp đồng </th>
+          <th scope="col">Số lượng</th>
+          <th scope="col">Tùy chỉnh </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let temp of hopdongchitiet | filter:filter | paginate: { itemsPerPage: 5, currentPage: p }; let i = index">
+          <td>{{temp.id}}</td>
+          <td>{{temp.hopDong}}</td>
+          <td>{{temp.soLuong}}</td>
+
+          <input type="button" (click)="deleteHopDongChiTiet(temp.id)" value="Delete">
+        </tr>
+
+      </tbody>
+    </table>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>

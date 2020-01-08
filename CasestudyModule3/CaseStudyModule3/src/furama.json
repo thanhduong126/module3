@@ -117,48 +117,28 @@
       "tongTien": 1300000
     },
     {
-      "id": 14,
-      "tenhopDong": "",
-      "khachHang": "",
-      "nhanVien": {
-        "id": 2,
-        "tenNhanVien": "Nguyễn Văn C",
-        "viTri": "Nhân viên",
-        "trinhDo": "Cao đẳng",
-        "boPhan": "Chăm sóc khách hàng",
-        "ngaySinh": "01/05/1993",
-        "soCmnd": "012345691",
-        "email": "nguyenvanc@gmail.com",
+      "id": 18,
+      "tenHopDong": "Furama",
+      "khachHang": {
+        "id": 12,
+        "tenKhachHang": "Hoang Thanh Dương",
+        "loaiKhachHang": "Vip",
+        "ngaySinh": "09/02/1995",
+        "soCmnd": "42132131",
+        "soDT": "3243242",
+        "email": "sadnight921995@yahoo.com",
         "diaChi": "Đà Nẵng"
       },
-      "dichVu": "",
-      "ngayLamHopDong": "",
-      "ngayKetThuc": "",
-      "tongTien": ""
-    },
-    {
-      "id": 15,
-      "tenhopDong": "",
-      "khachHang": {
-        "id": 9,
-        "tenKhachHang": "Nguyễn Văn A",
-        "loaiKhachHang": "Vip",
-        "ngaySinh": "213",
-        "soCmnd": "12121212111",
-        "soDT": "32423",
-        "email": "sadnight921995@yahoo.com",
-        "diaChi": "Huế"
-      },
       "nhanVien": {
-        "id": 1,
-        "tenNhanVien": "Nguyễn Văn BB",
-        "viTri": "Phó phòng",
-        "trinhDo": "Đại học",
-        "boPhan": "makerting",
-        "ngaySinh": "11/15/1992",
+        "id": 3,
+        "tenNhanVien": "Nguyễn Văn A",
+        "viTri": "Trưởng phòng",
+        "trinhDo": "Diamond",
+        "boPhan": "Sale",
+        "ngaySinh": "01/05/1993",
         "soCmnd": "012345698",
-        "email": "nguyenvanb@gmail.com",
-        "diaChi": "Huế"
+        "email": "nguyenvana@gmail.com",
+        "diaChi": "Quảng Nam"
       },
       "dichVu": {
         "id": 1,
@@ -169,9 +149,9 @@
         "chiPhiThue": "30000000",
         "trangThai": "vẫn còn"
       },
-      "ngayLamHopDong": "",
-      "ngayKetThuc": "",
-      "tongTien": ""
+      "ngayLamHopDong": "2020-01-01",
+      "ngayKetThuc": "2020-02-03",
+      "tongTien": "1000000"
     }
   ],
   "Dichvu": [
@@ -183,52 +163,41 @@
       "soNguoiToiDa": "4",
       "chiPhiThue": "30000000",
       "trangThai": "vẫn còn"
+    },
+    {
+      "id": 2,
+      "tenDichVu": "Villa4",
+      "dienTich": "40",
+      "soTang": "6",
+      "soNguoiToiDa": "10",
+      "chiPhiThue": "30000000",
+      "trangThai": "Tạm hết"
     }
   ],
   "Hopdong": [
     {
-      "id": 14,
-      "tenhopDong": "",
-      "khachHang": "",
-      "nhanVien": {
-        "id": 2,
-        "tenNhanVien": "Nguyễn Văn C",
-        "viTri": "Nhân viên",
-        "trinhDo": "Cao đẳng",
-        "boPhan": "Chăm sóc khách hàng",
-        "ngaySinh": "01/05/1993",
-        "soCmnd": "012345691",
-        "email": "nguyenvanc@gmail.com",
+      "id": 18,
+      "tenHopDong": "Furama",
+      "khachHang": {
+        "id": 12,
+        "tenKhachHang": "Hoang Thanh Dương",
+        "loaiKhachHang": "Vip",
+        "ngaySinh": "09/02/1995",
+        "soCmnd": "42132131",
+        "soDT": "3243242",
+        "email": "sadnight921995@yahoo.com",
         "diaChi": "Đà Nẵng"
       },
-      "dichVu": "",
-      "ngayLamHopDong": "",
-      "ngayKetThuc": "",
-      "tongTien": ""
-    },
-    {
-      "id": 15,
-      "tenhopDong": "",
-      "khachHang": {
-        "id": 9,
-        "tenKhachHang": "Nguyễn Văn A",
-        "loaiKhachHang": "Vip",
-        "ngaySinh": "213",
-        "soCmnd": "12121212111",
-        "soDT": "32423",
-        "email": "sadnight921995@yahoo.com",
-        "diaChi": "Huế"
-      },
       "nhanVien": {
-        "id": 1,
-        "tenNhanVien": "Nguyễn Văn BB",
-        "viTri": "Phó phòng",
-        "trinhDo": "Đại học",
-        "boPhan": "makerting",
-        "ngaySinh": "11/15/1992",
+        "id": 3,
+        "tenNhanVien": "Nguyễn Văn A",
+        "viTri": "Trưởng phòng",
+        "trinhDo": "Diamond",
+        "boPhan": "Sale",
+        "ngaySinh": "01/05/1993",
         "soCmnd": "012345698",
-        "email": "nguyenvanb@gmail.com",
-        "diaChi": "Huế"
+        "email": "nguyenvana@gmail.com",
+        "diaChi": "Quảng Nam"
       },
       "dichVu": {
         "id": 1,
@@ -239,9 +208,16 @@
         "chiPhiThue": "30000000",
         "trangThai": "vẫn còn"
       },
-      "ngayLamHopDong": "",
-      "ngayKetThuc": "",
-      "tongTien": ""
+      "ngayLamHopDong": "2020-01-01",
+      "ngayKetThuc": "2020-02-03",
+      "tongTien": "1000000"
+    }
+  ],
+  "HopDongChiTiet": [
+    {
+      "id": 1,
+      "hopDong": "Furama",
+      "soLuong": 1
     }
   ]
 }
