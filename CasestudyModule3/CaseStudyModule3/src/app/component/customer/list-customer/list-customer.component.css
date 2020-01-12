@@ -1,7 +1,7 @@
 table, th, td {
-    border: 1px solid black;
-    
-  }
-  pagination-controls{
-    text-align: center;
-  }
+  border: 1px solid black;
+  text-align: center;
+}
+pagination-controls{
+  text-align: center;
+}

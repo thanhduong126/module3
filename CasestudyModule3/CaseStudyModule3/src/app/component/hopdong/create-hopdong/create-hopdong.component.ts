@@ -41,23 +41,23 @@ export class CreateHopdongComponent implements OnInit {
       this.employee = data3;
     });
     this.Contact = this.fb.group({
-      id:[''],
-      tenHopDong:[''],
-      khachHang:[''],
-      nhanVien:[''],
-      dichVu:[''],
-      ngayLamHopDong:[''],
-      ngayKetThuc:[''],
-      tongTien:[''],
+      id: [''],
+      tenHopDong: [''],
+      khachHang: [''],
+      nhanVien: [''],
+      dichVu: [''],
+      ngayLamHopDong: [''],
+      ngayKetThuc: [''],
+      tongTien: [''],
     })
   }
 
-  addNewHopDong(hopdongobj){
-    if(this.Contact.valid){
+  addNewHopDong(hopdongobj) {
+    if (this.Contact.valid) {
       this.hopdongService.createHopDong(new HopDong(hopdongobj.id,
-        hopdongobj.tenHopDong,hopdongobj.khachHang,hopdongobj.nhanVien,
-        hopdongobj.dichVu,hopdongobj.ngayLamHopDong,hopdongobj.ngayKetThuc,
-        hopdongobj.tongTien)).subscribe(data=>{
+        hopdongobj.tenHopDong, hopdongobj.khachHang, hopdongobj.nhanVien,
+        hopdongobj.dichVu, hopdongobj.ngayLamHopDong, hopdongobj.ngayKetThuc,
+        hopdongobj.tongTien)).subscribe(data => {
           this.router.navigateByUrl("/listHopDong")
         });
     }

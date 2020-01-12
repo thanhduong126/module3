@@ -59,6 +59,16 @@
       "soDT": "0902626256",
       "email": "hoangthanhduong09021995@gmail.com",
       "diaChi": "Hà Nội"
+    },
+    {
+      "id": 15,
+      "tenKhachHang": "Nguyễn Văn Trung",
+      "loaiKhachHang": "Nomal",
+      "ngaySinh": "1985-01-04",
+      "soCmnd": "123123123",
+      "soDT": "0901251542",
+      "email": "sadnight921995@yahoo.com",
+      "diaChi": "Huế"
     }
   ],
   "employee": [
@@ -83,6 +93,50 @@
       "soCmnd": "012345698",
       "email": "nguyenvana@gmail.com",
       "diaChi": "Quảng Nam"
+    },
+    {
+      "id": 4,
+      "tenNhanVien": "Nguyên Khang",
+      "viTri": "Giám đốc",
+      "trinhDo": "Tiến Sĩ",
+      "boPhan": "Quản lý",
+      "ngaySinh": "1886-01-03",
+      "soCmnd": "Quảng Bình",
+      "email": "asd@fsdfd.com",
+      "diaChi": ""
+    },
+    {
+      "id": 5,
+      "tenNhanVien": "Nhân viên 1",
+      "viTri": "Kho",
+      "trinhDo": "Trung cấp",
+      "boPhan": "quản lý kho hàng",
+      "ngaySinh": "1985-08-15",
+      "soCmnd": "Đà Nẵng",
+      "email": "sadnight92191@yahoo.com",
+      "diaChi": ""
+    },
+    {
+      "id": 6,
+      "tenNhanVien": "Nhân viên 2",
+      "viTri": "Phó phòng",
+      "trinhDo": "Đại học",
+      "boPhan": "quản lý kho hàng",
+      "ngaySinh": "1990-01-23",
+      "soCmnd": "Huế",
+      "email": "duong222@gmail.com",
+      "diaChi": ""
+    },
+    {
+      "id": 7,
+      "tenNhanVien": "Nhân viên 3",
+      "viTri": "Trưởng phòng",
+      "trinhDo": "Đại học",
+      "boPhan": "quản lý kho hàng",
+      "ngaySinh": "1985-01-27",
+      "soCmnd": "Hà Nội",
+      "email": "hoangthanhduong09@gmail.com",
+      "diaChi": ""
     }
   ],
   "HopDong": [
@@ -152,6 +206,191 @@
       "ngayLamHopDong": "2020-01-01",
       "ngayKetThuc": "2020-02-03",
       "tongTien": "1000000"
+    },
+    {
+      "id": 19,
+      "tenHopDong": "FuFu",
+      "khachHang": {
+        "id": 12,
+        "tenKhachHang": "Hoang Thanh Dương",
+        "loaiKhachHang": "Vip",
+        "ngaySinh": "09/02/1995",
+        "soCmnd": "42132131",
+        "soDT": "3243242",
+        "email": "sadnight921995@yahoo.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "nhanVien": {
+        "id": 3,
+        "tenNhanVien": "Nguyễn Văn A",
+        "viTri": "Trưởng phòng",
+        "trinhDo": "Diamond",
+        "boPhan": "Sale",
+        "ngaySinh": "01/05/1993",
+        "soCmnd": "012345698",
+        "email": "nguyenvana@gmail.com",
+        "diaChi": "Quảng Nam"
+      },
+      "dichVu": {
+        "id": 1,
+        "tenDichVu": "Villa2",
+        "dienTich": "30",
+        "soTang": "6",
+        "soNguoiToiDa": "4",
+        "chiPhiThue": "30000000",
+        "trangThai": "vẫn còn"
+      },
+      "ngayLamHopDong": "2020-01-04",
+      "ngayKetThuc": "2020-01-06",
+      "tongTien": "5000000"
+    },
+    {
+      "id": 20,
+      "tenHopDong": "OverSea",
+      "khachHang": {
+        "id": 15,
+        "tenKhachHang": "Nguyễn Văn Trung",
+        "loaiKhachHang": "Nomal",
+        "ngaySinh": "1985-01-04",
+        "soCmnd": "123123123",
+        "soDT": "0901251542",
+        "email": "sadnight921995@yahoo.com",
+        "diaChi": "Huế"
+      },
+      "nhanVien": {
+        "id": 4,
+        "tenNhanVien": "Nguyên Khang",
+        "viTri": "Giám đốc",
+        "trinhDo": "Tiến Sĩ",
+        "boPhan": "Quản lý",
+        "ngaySinh": "1886-01-03",
+        "soCmnd": "Quảng Bình",
+        "email": "asd@fsdfd.com",
+        "diaChi": ""
+      },
+      "dichVu": {
+        "id": 5,
+        "tenDichVu": "Nhà nghỉ",
+        "dienTich": "30",
+        "soTang": "4",
+        "soNguoiToiDa": "4",
+        "chiPhiThue": "30000000",
+        "trangThai": "Tạm hết"
+      },
+      "ngayLamHopDong": "2020-01-03",
+      "ngayKetThuc": "2020-01-04",
+      "tongTien": "5000000"
+    },
+    {
+      "id": 21,
+      "tenHopDong": "Furama Vip",
+      "khachHang": {
+        "id": 12,
+        "tenKhachHang": "Hoang Thanh Dương",
+        "loaiKhachHang": "Vip",
+        "ngaySinh": "09/02/1995",
+        "soCmnd": "42132131",
+        "soDT": "3243242",
+        "email": "sadnight921995@yahoo.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "nhanVien": {
+        "id": 4,
+        "tenNhanVien": "Nguyên Khang",
+        "viTri": "Giám đốc",
+        "trinhDo": "Tiến Sĩ",
+        "boPhan": "Quản lý",
+        "ngaySinh": "1886-01-03",
+        "soCmnd": "Quảng Bình",
+        "email": "asd@fsdfd.com",
+        "diaChi": ""
+      },
+      "dichVu": {
+        "id": 5,
+        "tenDichVu": "Nhà nghỉ",
+        "dienTich": "30",
+        "soTang": "4",
+        "soNguoiToiDa": "4",
+        "chiPhiThue": "30000000",
+        "trangThai": "Tạm hết"
+      },
+      "ngayLamHopDong": "2020-01-11",
+      "ngayKetThuc": "2020-01-17",
+      "tongTien": "80000000"
+    },
+    {
+      "id": 22,
+      "tenHopDong": "Nhà giàu",
+      "khachHang": {
+        "id": 13,
+        "tenKhachHang": "Nguyễn Văn A",
+        "loaiKhachHang": "Nomal",
+        "ngaySinh": "09/02/1995",
+        "soCmnd": "42132131",
+        "soDT": "3243242",
+        "email": "sadnight921995@yahoo.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "nhanVien": {
+        "id": 2,
+        "tenNhanVien": "Nguyễn Văn C",
+        "viTri": "Nhân viên",
+        "trinhDo": "Cao đẳng",
+        "boPhan": "Chăm sóc khách hàng",
+        "ngaySinh": "01/05/1993",
+        "soCmnd": "012345691",
+        "email": "nguyenvanc@gmail.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "dichVu": {
+        "id": 3,
+        "tenDichVu": "Room",
+        "dienTich": "50",
+        "soTang": "8",
+        "soNguoiToiDa": "10",
+        "chiPhiThue": "25000000",
+        "trangThai": "vẫn còn"
+      },
+      "ngayLamHopDong": "2020-01-09",
+      "ngayKetThuc": "2020-01-10",
+      "tongTien": "7000000"
+    },
+    {
+      "id": 23,
+      "tenHopDong": "Nhà Nghèo",
+      "khachHang": {
+        "id": 14,
+        "tenKhachHang": "sada",
+        "loaiKhachHang": "Nomal",
+        "ngaySinh": "2020-01-15",
+        "soCmnd": "123123123",
+        "soDT": "0902626256",
+        "email": "hoangthanhduong09021995@gmail.com",
+        "diaChi": "Hà Nội"
+      },
+      "nhanVien": {
+        "id": 3,
+        "tenNhanVien": "Nguyễn Văn A",
+        "viTri": "Trưởng phòng",
+        "trinhDo": "Diamond",
+        "boPhan": "Sale",
+        "ngaySinh": "01/05/1993",
+        "soCmnd": "012345698",
+        "email": "nguyenvana@gmail.com",
+        "diaChi": "Quảng Nam"
+      },
+      "dichVu": {
+        "id": 4,
+        "tenDichVu": "House",
+        "dienTich": "40",
+        "soTang": "6",
+        "soNguoiToiDa": "6",
+        "chiPhiThue": "30000000",
+        "trangThai": "vẫn còn"
+      },
+      "ngayLamHopDong": "2020-01-01",
+      "ngayKetThuc": "2020-01-02",
+      "tongTien": "5600000"
     }
   ],
   "Dichvu": [
@@ -172,6 +411,42 @@
       "soNguoiToiDa": "10",
       "chiPhiThue": "30000000",
       "trangThai": "Tạm hết"
+    },
+    {
+      "id": 3,
+      "tenDichVu": "Room",
+      "dienTich": "50",
+      "soTang": "8",
+      "soNguoiToiDa": "10",
+      "chiPhiThue": "25000000",
+      "trangThai": "vẫn còn"
+    },
+    {
+      "id": 4,
+      "tenDichVu": "House",
+      "dienTich": "40",
+      "soTang": "6",
+      "soNguoiToiDa": "6",
+      "chiPhiThue": "30000000",
+      "trangThai": "vẫn còn"
+    },
+    {
+      "id": 5,
+      "tenDichVu": "Nhà nghỉ",
+      "dienTich": "30",
+      "soTang": "4",
+      "soNguoiToiDa": "4",
+      "chiPhiThue": "30000000",
+      "trangThai": "Tạm hết"
+    },
+    {
+      "id": 6,
+      "tenDichVu": "Villa3",
+      "dienTich": "40",
+      "soTang": "6",
+      "soNguoiToiDa": "8",
+      "chiPhiThue": "30000000",
+      "trangThai": "vẫn còn"
     }
   ],
   "Hopdong": [
@@ -211,13 +486,439 @@
       "ngayLamHopDong": "2020-01-01",
       "ngayKetThuc": "2020-02-03",
       "tongTien": "1000000"
+    },
+    {
+      "id": 19,
+      "tenHopDong": "FuFu",
+      "khachHang": {
+        "id": 12,
+        "tenKhachHang": "Hoang Thanh Dương",
+        "loaiKhachHang": "Vip",
+        "ngaySinh": "09/02/1995",
+        "soCmnd": "42132131",
+        "soDT": "3243242",
+        "email": "sadnight921995@yahoo.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "nhanVien": {
+        "id": 3,
+        "tenNhanVien": "Nguyễn Văn A",
+        "viTri": "Trưởng phòng",
+        "trinhDo": "Diamond",
+        "boPhan": "Sale",
+        "ngaySinh": "01/05/1993",
+        "soCmnd": "012345698",
+        "email": "nguyenvana@gmail.com",
+        "diaChi": "Quảng Nam"
+      },
+      "dichVu": {
+        "id": 1,
+        "tenDichVu": "Villa2",
+        "dienTich": "30",
+        "soTang": "6",
+        "soNguoiToiDa": "4",
+        "chiPhiThue": "30000000",
+        "trangThai": "vẫn còn"
+      },
+      "ngayLamHopDong": "2020-01-04",
+      "ngayKetThuc": "2020-01-06",
+      "tongTien": "5000000"
+    },
+    {
+      "id": 20,
+      "tenHopDong": "OverSea",
+      "khachHang": {
+        "id": 15,
+        "tenKhachHang": "Nguyễn Văn Trung",
+        "loaiKhachHang": "Nomal",
+        "ngaySinh": "1985-01-04",
+        "soCmnd": "123123123",
+        "soDT": "0901251542",
+        "email": "sadnight921995@yahoo.com",
+        "diaChi": "Huế"
+      },
+      "nhanVien": {
+        "id": 4,
+        "tenNhanVien": "Nguyên Khang",
+        "viTri": "Giám đốc",
+        "trinhDo": "Tiến Sĩ",
+        "boPhan": "Quản lý",
+        "ngaySinh": "1886-01-03",
+        "soCmnd": "Quảng Bình",
+        "email": "asd@fsdfd.com",
+        "diaChi": ""
+      },
+      "dichVu": {
+        "id": 5,
+        "tenDichVu": "Nhà nghỉ",
+        "dienTich": "30",
+        "soTang": "4",
+        "soNguoiToiDa": "4",
+        "chiPhiThue": "30000000",
+        "trangThai": "Tạm hết"
+      },
+      "ngayLamHopDong": "2020-01-03",
+      "ngayKetThuc": "2020-01-04",
+      "tongTien": "5000000"
+    },
+    {
+      "id": 21,
+      "tenHopDong": "Furama Vip",
+      "khachHang": {
+        "id": 12,
+        "tenKhachHang": "Hoang Thanh Dương",
+        "loaiKhachHang": "Vip",
+        "ngaySinh": "09/02/1995",
+        "soCmnd": "42132131",
+        "soDT": "3243242",
+        "email": "sadnight921995@yahoo.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "nhanVien": {
+        "id": 4,
+        "tenNhanVien": "Nguyên Khang",
+        "viTri": "Giám đốc",
+        "trinhDo": "Tiến Sĩ",
+        "boPhan": "Quản lý",
+        "ngaySinh": "1886-01-03",
+        "soCmnd": "Quảng Bình",
+        "email": "asd@fsdfd.com",
+        "diaChi": ""
+      },
+      "dichVu": {
+        "id": 5,
+        "tenDichVu": "Nhà nghỉ",
+        "dienTich": "30",
+        "soTang": "4",
+        "soNguoiToiDa": "4",
+        "chiPhiThue": "30000000",
+        "trangThai": "Tạm hết"
+      },
+      "ngayLamHopDong": "2020-01-11",
+      "ngayKetThuc": "2020-01-17",
+      "tongTien": "80000000"
+    },
+    {
+      "id": 22,
+      "tenHopDong": "Nhà giàu",
+      "khachHang": {
+        "id": 13,
+        "tenKhachHang": "Nguyễn Văn A",
+        "loaiKhachHang": "Nomal",
+        "ngaySinh": "09/02/1995",
+        "soCmnd": "42132131",
+        "soDT": "3243242",
+        "email": "sadnight921995@yahoo.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "nhanVien": {
+        "id": 2,
+        "tenNhanVien": "Nguyễn Văn C",
+        "viTri": "Nhân viên",
+        "trinhDo": "Cao đẳng",
+        "boPhan": "Chăm sóc khách hàng",
+        "ngaySinh": "01/05/1993",
+        "soCmnd": "012345691",
+        "email": "nguyenvanc@gmail.com",
+        "diaChi": "Đà Nẵng"
+      },
+      "dichVu": {
+        "id": 3,
+        "tenDichVu": "Room",
+        "dienTich": "50",
+        "soTang": "8",
+        "soNguoiToiDa": "10",
+        "chiPhiThue": "25000000",
+        "trangThai": "vẫn còn"
+      },
+      "ngayLamHopDong": "2020-01-09",
+      "ngayKetThuc": "2020-01-10",
+      "tongTien": "7000000"
+    },
+    {
+      "id": 23,
+      "tenHopDong": "Nhà Nghèo",
+      "khachHang": {
+        "id": 14,
+        "tenKhachHang": "sada",
+        "loaiKhachHang": "Nomal",
+        "ngaySinh": "2020-01-15",
+        "soCmnd": "123123123",
+        "soDT": "0902626256",
+        "email": "hoangthanhduong09021995@gmail.com",
+        "diaChi": "Hà Nội"
+      },
+      "nhanVien": {
+        "id": 3,
+        "tenNhanVien": "Nguyễn Văn A",
+        "viTri": "Trưởng phòng",
+        "trinhDo": "Diamond",
+        "boPhan": "Sale",
+        "ngaySinh": "01/05/1993",
+        "soCmnd": "012345698",
+        "email": "nguyenvana@gmail.com",
+        "diaChi": "Quảng Nam"
+      },
+      "dichVu": {
+        "id": 4,
+        "tenDichVu": "House",
+        "dienTich": "40",
+        "soTang": "6",
+        "soNguoiToiDa": "6",
+        "chiPhiThue": "30000000",
+        "trangThai": "vẫn còn"
+      },
+      "ngayLamHopDong": "2020-01-01",
+      "ngayKetThuc": "2020-01-02",
+      "tongTien": "5600000"
     }
   ],
   "HopDongChiTiet": [
     {
-      "id": 1,
-      "hopDong": "Furama",
-      "soLuong": 1
+      "id": 2,
+      "hopDong": {
+        "id": 18,
+        "tenHopDong": "Furama",
+        "khachHang": {
+          "id": 12,
+          "tenKhachHang": "Hoang Thanh Dương",
+          "loaiKhachHang": "Vip",
+          "ngaySinh": "09/02/1995",
+          "soCmnd": "42132131",
+          "soDT": "3243242",
+          "email": "sadnight921995@yahoo.com",
+          "diaChi": "Đà Nẵng"
+        },
+        "nhanVien": {
+          "id": 3,
+          "tenNhanVien": "Nguyễn Văn A",
+          "viTri": "Trưởng phòng",
+          "trinhDo": "Diamond",
+          "boPhan": "Sale",
+          "ngaySinh": "01/05/1993",
+          "soCmnd": "012345698",
+          "email": "nguyenvana@gmail.com",
+          "diaChi": "Quảng Nam"
+        },
+        "dichVu": {
+          "id": 1,
+          "tenDichVu": "Villa2",
+          "dienTich": "30",
+          "soTang": "6",
+          "soNguoiToiDa": "4",
+          "chiPhiThue": "30000000",
+          "trangThai": "vẫn còn"
+        },
+        "ngayLamHopDong": "2020-01-01",
+        "ngayKetThuc": "2020-02-03",
+        "tongTien": "1000000"
+      },
+      "soLuong": "3"
+    },
+    {
+      "id": 3,
+      "hopDong": {
+        "id": 20,
+        "tenHopDong": "OverSea",
+        "khachHang": {
+          "id": 15,
+          "tenKhachHang": "Nguyễn Văn Trung",
+          "loaiKhachHang": "Nomal",
+          "ngaySinh": "1985-01-04",
+          "soCmnd": "123123123",
+          "soDT": "0901251542",
+          "email": "sadnight921995@yahoo.com",
+          "diaChi": "Huế"
+        },
+        "nhanVien": {
+          "id": 4,
+          "tenNhanVien": "Nguyên Khang",
+          "viTri": "Giám đốc",
+          "trinhDo": "Tiến Sĩ",
+          "boPhan": "Quản lý",
+          "ngaySinh": "1886-01-03",
+          "soCmnd": "Quảng Bình",
+          "email": "asd@fsdfd.com",
+          "diaChi": ""
+        },
+        "dichVu": {
+          "id": 5,
+          "tenDichVu": "Nhà nghỉ",
+          "dienTich": "30",
+          "soTang": "4",
+          "soNguoiToiDa": "4",
+          "chiPhiThue": "30000000",
+          "trangThai": "Tạm hết"
+        },
+        "ngayLamHopDong": "2020-01-03",
+        "ngayKetThuc": "2020-01-04",
+        "tongTien": "5000000"
+      },
+      "soLuong": "3"
+    },
+    {
+      "id": 4,
+      "hopDong": {
+        "id": 22,
+        "tenHopDong": "Nhà giàu",
+        "khachHang": {
+          "id": 13,
+          "tenKhachHang": "Nguyễn Văn A",
+          "loaiKhachHang": "Nomal",
+          "ngaySinh": "09/02/1995",
+          "soCmnd": "42132131",
+          "soDT": "3243242",
+          "email": "sadnight921995@yahoo.com",
+          "diaChi": "Đà Nẵng"
+        },
+        "nhanVien": {
+          "id": 2,
+          "tenNhanVien": "Nguyễn Văn C",
+          "viTri": "Nhân viên",
+          "trinhDo": "Cao đẳng",
+          "boPhan": "Chăm sóc khách hàng",
+          "ngaySinh": "01/05/1993",
+          "soCmnd": "012345691",
+          "email": "nguyenvanc@gmail.com",
+          "diaChi": "Đà Nẵng"
+        },
+        "dichVu": {
+          "id": 3,
+          "tenDichVu": "Room",
+          "dienTich": "50",
+          "soTang": "8",
+          "soNguoiToiDa": "10",
+          "chiPhiThue": "25000000",
+          "trangThai": "vẫn còn"
+        },
+        "ngayLamHopDong": "2020-01-09",
+        "ngayKetThuc": "2020-01-10",
+        "tongTien": "7000000"
+      },
+      "soLuong": "2"
+    },
+    {
+      "id": 5,
+      "hopDong": {
+        "id": 23,
+        "tenHopDong": "Nhà Nghèo",
+        "khachHang": {
+          "id": 14,
+          "tenKhachHang": "sada",
+          "loaiKhachHang": "Nomal",
+          "ngaySinh": "2020-01-15",
+          "soCmnd": "123123123",
+          "soDT": "0902626256",
+          "email": "hoangthanhduong09021995@gmail.com",
+          "diaChi": "Hà Nội"
+        },
+        "nhanVien": {
+          "id": 3,
+          "tenNhanVien": "Nguyễn Văn A",
+          "viTri": "Trưởng phòng",
+          "trinhDo": "Diamond",
+          "boPhan": "Sale",
+          "ngaySinh": "01/05/1993",
+          "soCmnd": "012345698",
+          "email": "nguyenvana@gmail.com",
+          "diaChi": "Quảng Nam"
+        },
+        "dichVu": {
+          "id": 4,
+          "tenDichVu": "House",
+          "dienTich": "40",
+          "soTang": "6",
+          "soNguoiToiDa": "6",
+          "chiPhiThue": "30000000",
+          "trangThai": "vẫn còn"
+        },
+        "ngayLamHopDong": "2020-01-01",
+        "ngayKetThuc": "2020-01-02",
+        "tongTien": "5600000"
+      },
+      "soLuong": "4"
+    },
+    {
+      "id": 6,
+      "hopDong": {
+        "id": 21,
+        "tenHopDong": "Furama Vip",
+        "khachHang": {
+          "id": 12,
+          "tenKhachHang": "Hoang Thanh Dương",
+          "loaiKhachHang": "Vip",
+          "ngaySinh": "09/02/1995",
+          "soCmnd": "42132131",
+          "soDT": "3243242",
+          "email": "sadnight921995@yahoo.com",
+          "diaChi": "Đà Nẵng"
+        },
+        "nhanVien": {
+          "id": 4,
+          "tenNhanVien": "Nguyên Khang",
+          "viTri": "Giám đốc",
+          "trinhDo": "Tiến Sĩ",
+          "boPhan": "Quản lý",
+          "ngaySinh": "1886-01-03",
+          "soCmnd": "Quảng Bình",
+          "email": "asd@fsdfd.com",
+          "diaChi": ""
+        },
+        "dichVu": {
+          "id": 5,
+          "tenDichVu": "Nhà nghỉ",
+          "dienTich": "30",
+          "soTang": "4",
+          "soNguoiToiDa": "4",
+          "chiPhiThue": "30000000",
+          "trangThai": "Tạm hết"
+        },
+        "ngayLamHopDong": "2020-01-11",
+        "ngayKetThuc": "2020-01-17",
+        "tongTien": "80000000"
+      },
+      "soLuong": "1"
+    },
+    {
+      "id": 7,
+      "hopDong": {
+        "id": 19,
+        "tenHopDong": "FuFu",
+        "khachHang": {
+          "id": 12,
+          "tenKhachHang": "Hoang Thanh Dương",
+          "loaiKhachHang": "Vip",
+          "ngaySinh": "09/02/1995",
+          "soCmnd": "42132131",
+          "soDT": "3243242",
+          "email": "sadnight921995@yahoo.com",
+          "diaChi": "Đà Nẵng"
+        },
+        "nhanVien": {
+          "id": 3,
+          "tenNhanVien": "Nguyễn Văn A",
+          "viTri": "Trưởng phòng",
+          "trinhDo": "Diamond",
+          "boPhan": "Sale",
+          "ngaySinh": "01/05/1993",
+          "soCmnd": "012345698",
+          "email": "nguyenvana@gmail.com",
+          "diaChi": "Quảng Nam"
+        },
+        "dichVu": {
+          "id": 1,
+          "tenDichVu": "Villa2",
+          "dienTich": "30",
+          "soTang": "6",
+          "soNguoiToiDa": "4",
+          "chiPhiThue": "30000000",
+          "trangThai": "vẫn còn"
+        },
+        "ngayLamHopDong": "2020-01-04",
+        "ngayKetThuc": "2020-01-06",
+        "tongTien": "5000000"
+      },
+      "soLuong": "2"
     }
   ]
 }

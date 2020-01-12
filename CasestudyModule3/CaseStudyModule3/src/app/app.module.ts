@@ -27,6 +27,7 @@ import { ListHopdongchitietComponent } from './component/hopdongchitiet/list-hop
 import { CreateHopdongchitietComponent } from './component/hopdongchitiet/create-hopdongchitiet/create-hopdongchitiet.component';
 import { UpdateHopdongchitietComponent } from './component/hopdongchitiet/update-hopdongchitiet/update-hopdongchitiet.component';
 import { DetailHopdongchitietComponent } from './component/hopdongchitiet/detail-hopdongchitiet/detail-hopdongchitiet.component';
+import { HomeComponent } from './component/home/home.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { DetailHopdongchitietComponent } from './component/hopdongchitiet/detail
     ListHopdongchitietComponent,
     CreateHopdongchitietComponent,
     UpdateHopdongchitietComponent,
-    DetailHopdongchitietComponent
+    DetailHopdongchitietComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

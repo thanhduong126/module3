@@ -16,9 +16,8 @@
       <tbody>
         <tr *ngFor="let temp of hopdongchitiet | filter:filter | paginate: { itemsPerPage: 5, currentPage: p }; let i = index">
           <td>{{temp.id}}</td>
-          <td>{{temp.hopDong}}</td>
+          <td>{{temp.hopDong.tenHopDong}}</td>
           <td>{{temp.soLuong}}</td>
-
           <input type="button" (click)="deleteHopDongChiTiet(temp.id)" value="Delete">
         </tr>
 

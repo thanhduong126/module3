@@ -23,7 +23,7 @@ export class CreateEmployeeComponent implements OnInit {
       trinhDo: [''],
       boPhan: [''],
       ngaySinh: [''],
-      soCmnd: ['',[Validators.required,Validators.pattern('^([0-9]){9}$')]],
+      soCmnd: [''],
       email: [''],
       diaChi: [''],
     })

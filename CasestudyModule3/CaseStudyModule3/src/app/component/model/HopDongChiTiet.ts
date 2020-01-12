@@ -4,5 +4,9 @@ export class HopDongChiTiet{
     hopDong:HopDong;
     soLuong:number;
 
-    constructor(){}
+    constructor(id:number,hopDong:HopDong,soLuong:number){
+        this.id=id;
+        this.hopDong=hopDong;
+        this.soLuong=soLuong;
+    }
 }

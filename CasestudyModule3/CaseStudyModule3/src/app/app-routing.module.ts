@@ -19,6 +19,7 @@ import { ListHopdongchitietComponent } from './component/hopdongchitiet/list-hop
 import { CreateHopdongchitietComponent } from './component/hopdongchitiet/create-hopdongchitiet/create-hopdongchitiet.component';
 import { UpdateHopdongchitietComponent } from './component/hopdongchitiet/update-hopdongchitiet/update-hopdongchitiet.component';
 import { DetailHopdongchitietComponent } from './component/hopdongchitiet/detail-hopdongchitiet/detail-hopdongchitiet.component';
+import { HomeComponent } from './component/home/home.component';
 
 
 const routes: Routes = [
@@ -87,6 +88,10 @@ const routes: Routes = [
   }, 
   {
     path: "detailHopDongChiTiet/:id", component: DetailHopdongchitietComponent
+  }, 
+  //home
+  {
+    path: "home", component: HomeComponent
   }, 
 ];
 

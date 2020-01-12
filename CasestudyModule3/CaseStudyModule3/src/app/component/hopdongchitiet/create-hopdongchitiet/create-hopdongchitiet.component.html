@@ -1,1 +1,17 @@
-<p>create-hopdongchitiet works!</p>
+<div class="container">
+    <div class="form-group col-md-3 col-md-offset-3 align-center ">
+        <form id="formNewHopDongChiTiet" name="formHopDongChiTiet" (submit)="addNewHopDongChiTiet(Contact.value);" [formGroup]="Contact">
+
+                <label>Chọn hợp đồng:</label>
+                <select formControlName="hopDong">
+                    <option *ngFor="let o of hopdong"  [ngValue]="o">
+                        {{o.tenHopDong}}
+                    </option>
+                </select>
+
+            <label>Số lượng:</label><br>
+            <input type="text" name="soLuong" id="soLuong" formControlName="soLuong"><br>
+            <input type="submit" value="Add hợp đồng chi tiết" [disabled]="!Contact.valid">
+        </form>
+    </div>
+</div>

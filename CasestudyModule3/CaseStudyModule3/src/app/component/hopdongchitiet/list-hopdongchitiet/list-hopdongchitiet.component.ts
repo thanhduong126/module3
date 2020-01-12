@@ -14,15 +14,16 @@ export class ListHopdongchitietComponent implements OnInit {
   ngOnInit() {
     this.hopDongChiTiet.getAllHopDongChiTiet().subscribe(data=>{
       this.hopdongchitiet=data;
+      console.log(this.hopdongchitiet);
     });
   }
   deleteHopDongChiTiet = function (id: number) {
-    this.hopdongchitiet.deleteHopDongChiTiet(id).subscribe(data =>{
-        this.hopdongchitiet.getAllHopDongChiTiet().subscribe(data => {
+    this.hopDongChiTiet.deleteHopDongChiTiet(id).subscribe(data =>{
+        this.hopDongChiTiet.getAllHopDongChiTiet().subscribe(data => {
           this.hopdongchitiet = data;
         this.router.navigateByUrl("/listHopDongChiTiet");
-        
       })}
     )
+
   }
 }
